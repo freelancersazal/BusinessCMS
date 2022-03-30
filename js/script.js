@@ -67,11 +67,26 @@ $('.portfolio_slider').slick({
 $('.venobox').venobox(); 
 
 
- 
+
+
+//=====STICKY SIDEBAR===== 
+$("#sticky_sidebar").stickit({
+    top:80,
+})
     
     
-    
-    
+//*=======BANNER SLIDER====== 
+$('.prtfolio_det_slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    dots: true,
+    arrows: false,
+
+
+}); 
+  
     
     
     

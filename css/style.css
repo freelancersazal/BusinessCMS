@@ -136,7 +136,8 @@ textarea::placeholder{
     width: 100%;
     height: 80px;
     border-bottom: 1px solid #eee;
-}
+    background: var(--whiteColor);
+ }
 
 .main_menu .top_logo {
     width: 220px;
@@ -240,11 +241,6 @@ textarea::placeholder{
     top: 101%;
 }
 
-
-
-
-.menu_right{}
-
 .menu_right li{
     position: relative;
 }
@@ -263,6 +259,7 @@ textarea::placeholder{
     -moz-transition: all linear .3s ease;
     -ms-transition: all linear .3s ease;
     -o-transition: all linear .3s ease;
+    position: relative;
 }
 
 .menu_right li:hover a{
@@ -323,6 +320,161 @@ textarea::placeholder{
     opacity: 1;
     visibility: visible;
 }
+
+.menu_right li a.cart_compare{
+    margin-right: 7px;
+}
+
+.menu_right li a span {
+    background: var(--primaryColor);
+    width: 25px;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    color: var(--whiteColor);
+    font-size: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    box-shadow: var(--boxShadow);
+    font-weight: 600;
+}
+
+.menu_fix {
+    position: fixed !important;
+    left: 0px;
+    top: 0;
+    z-index: 99;
+    animation: menu_animate 1s ease-in-out;
+    -webkit-animation: menu_animate 1s ease-in-out;
+}
+
+@keyframes menu_animate {
+    from {
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+}
+
+.wsus__mini_cart h5 {
+    text-transform: capitalize;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wsus__mini_cart .offcanvas-header {
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.wsus__mini_cart h5 span {
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    padding: 2px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.wsus__mini_cart ul{
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.wsus__mini_cart ul::-webkit-scrollbar {
+	scrollbar-width: thin !important;
+	background: #eee;
+	height: 8px;
+	width: 8px;
+}
+
+.wsus__mini_cart ul::-webkit-scrollbar-thumb {
+	background: var(--secondaryColor);
+}
+
+.wsus__mini_cart ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--borderColor);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.wsus__mini_cart ul li:last-child{
+    border: 0;
+    margin: 0;
+}
+
+.wsus__mini_cart ul li .wsus__cart_img {
+    width: 80px;
+    height: 65px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: var(--boxShadow);
+}
+
+.wsus__mini_cart .wsus__cart_text {
+    width: 74%;
+    position: relative;
+    padding-right: 20px;
+}
+
+.wsus__mini_cart .wsus__cart_text .title {
+    color: var(--secondaryColor);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.wsus__mini_cart .wsus__cart_text h3 {
+    color: var(--primaryColor);
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: var(--paraFont);
+}
+
+.wsus__mini_cart .wsus__cart_text .del_icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: red;
+}
+
+.wsus__mini_cart_btn {
+    padding-top: 20px;
+    border-top: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+}
+
+.wsus__mini_cart_btn .checkout{
+    background: var(--secondaryColor);
+}
+
+.wsus__mini_cart_btn .checkout:hover{
+    background: #2b5e7e;
+}
+
 /*============================
     MENU END
 ===========================*/
@@ -528,9 +680,6 @@ textarea::placeholder{
 /*============================
     WHY SHOOSE START
  ===========================*/
-.wsus__why_choose{}
-
-
 .wsus__why_choose_item {
     display: flex;
     justify-content: space-between;
@@ -657,7 +806,7 @@ textarea::placeholder{
     width: 75%;
 }
 
-.wsus__services_title p {
+.wsus__services_title a {
     background: var(--primaryColor);
     color: var(--whiteColor);
     text-transform: capitalize;
@@ -830,6 +979,8 @@ textarea::placeholder{
     -o-transform: scale(1);
 }
 
+.wsus__prtfolio_details .nxt_arr,
+.wsus__prtfolio_details .prv_arr,
 .wsus__prtfolios .nxt_arr, 
 .wsus__prtfolios .prv_arr {
     width: 35px;
@@ -853,11 +1004,14 @@ textarea::placeholder{
     -o-transition: all linear .3s ease;
 }
 
+.wsus__prtfolio_details .prv_arr,
 .wsus__prtfolios .prv_arr{
     right: auto;
     left: 21px;
-}
+} 
 
+.wsus__prtfolio_details .nxt_arr:hover,
+.wsus__prtfolio_details .prv_arr:hover,
 .wsus__prtfolios .nxt_arr:hover, 
 .wsus__prtfolios .prv_arr:hover{
     opacity: 1;
@@ -867,18 +1021,9 @@ textarea::placeholder{
  ===========================*/
 
 
-
-
-
-
-
-
-
 /*============================
     SUCCESS START
  ===========================*/
-.wsus__success{}
-
 .wsus__success_img {
     height: 410px;
     padding: 0px 30px;
@@ -1260,8 +1405,8 @@ textarea::placeholder{
 
 .wsus__single_blog_text .blog_title {
     text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 10px;
     display: block;
     transition: all linear .3s;
@@ -1273,7 +1418,7 @@ textarea::placeholder{
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    font-family: var(--headingFont);
+    font-family: var(--titleFont);
     color: var(--secondaryColor);
 }
 
@@ -1316,20 +1461,34 @@ textarea::placeholder{
 
 
 
+
+
 /*============================
-    SUBSCRIBE START
+    FOOTER START
 ===========================*/
-.wsu__subscribe {
-    padding: 50px;
-    background: rgb(69,123,157);
-    background: linear-gradient(164deg, rgba(69,123,157,1) 25%, rgba(136,94,45,1) 50%, rgba(69,123,157,1) 75%);
+footer {
+    background: #383459;
+}
+
+footer .relative {
+    position: relative;
+}
+
+.wsu__subscribe_area {
+    border: 2px solid #fff;
+    background: #383459;
+    padding: 20px;
+    border-radius: 80px;
+    position: absolute;
+    top: -205px;
+    left: 0;
+    width: 100%;
 }
 
 .wsus__subs_text {
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -1338,6 +1497,7 @@ textarea::placeholder{
     color: var(--whiteColor);
     font-size: 35px;
     font-weight: 600;
+    text-align: center;
 }
 
 .subs_form {
@@ -1377,20 +1537,6 @@ textarea::placeholder{
 
 .subs_form button:hover{
     background: #d4770d;
-}
-/*============================
-    SUBSCRIBE END
-===========================*/
-
-
-
-
-
-/*============================
-    FOOTER START
-===========================*/
-footer {
-    background: #383459;
 }
 
 .wsus__footer_content .footer_logo {
@@ -1477,6 +1623,309 @@ footer {
 
 
 
+/*============================
+    SERVICES START
+===========================*/
+.wsus__breadcrumb {
+    background-position: center top !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.wsus__breadcrumb_overlay {
+    background: #0000007a;
+    padding: 90px 0px 97px 0px;
+    text-align: center;
+}
+
+.wsus__breadcrumb h1 {
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--headingFont);
+    margin-bottom: 10px;
+}
+
+.wsus__breadcrumb ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsus__breadcrumb ul li a {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--whiteColor);
+    margin-right: 25px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.wsus__breadcrumb ul li:last-child a{
+    margin: 0;
+    padding: 0;
+}
+
+.wsus__breadcrumb ul li:last-child a::after{
+    display: none;
+}
+
+.wsus__breadcrumb ul li a::after {
+    position: absolute;
+    content: "\f35a";
+    font-family: 'Font Awesome 5 Free';
+    display: inline-flex;
+    color: #fff;
+    top: 3px;
+    right: -5px;
+    font-size: 13px;
+}
+
+.wsus__pagination ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0;
+    background: var(--whiteColor);
+    border-radius: 3px !important;
+    margin: 0px 10px;
+    color: var(--primaryColor);
+    border: 1px solid var(--borderColor);
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+    display: block;
+}
+
+.wsus__pagination ul li a:hover,
+.wsus__pagination ul li a.active {
+    color: var(--whiteColor);
+    background: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+.wsus__pagination ul li a:focus {
+    box-shadow: none;
+}
+/*============================
+    SERVICES END
+============================*/
+
+
+
+
+
+
+/*============================
+    SERVICES DETAILS START
+============================*/
+.wsus__services_details{}
+
+
+.wsus__service_det_area{}
+
+.wsus__services_det_img {
+    height: 500px;
+}
+
+.details_heading {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.details_subheading {
+    margin-top: 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.details_area p {
+    margin-top: 25px;
+}
+
+.wsus__services_det_text ul{
+    margin-top: 10px;
+}
+
+.wsus__services_det_text ul li {
+    padding-left: 25px;
+    position: relative;
+    color: var(--paraColor);
+    margin-top: 20px;
+}
+
+.wsus__services_det_text ul li::after {
+    position: absolute;
+    content: "\f35a";
+    font-family: 'Font Awesome 5 Free';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--primaryColor);
+    left: 0;
+    top: 1px;
+    font-size: 16px;
+}
+
+
+.wsus__details_sidebar{}
+
+.sidebar_services {
+    background: #e9ecef8a;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.sidebar_services h3 {
+    border-bottom: 1px solid var(--primaryColor);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: var(--primaryColor);
+}
+
+.sidebar_services ul li a {
+    color: var(--secondaryColor);
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.sidebar_services ul li:last-child a{
+    margin: 0;
+}
+
+.sidebar_services ul li a::after {
+    position: absolute;
+    content: "";
+    background: var(--primaryColor);
+    left: 0;
+    top: 50%;
+    width: 10px;
+    height: 2.1px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.sidebar_services ul li a:hover{
+    padding-left: 30px;
+    color: var(--primaryColor);
+}
+
+.sidebar_services ul li a:hover::after{
+    width: 20px;
+}
+
+
+
+
+.sidebar_call{}
+
+.sidebar_call h4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar_call h4 span {
+    color: var(--primaryColor);
+    font-size: 40px;
+    margin-right: 10px;
+    display: inline-block;
+}
+/*============================
+    SERVICES DETAILS END
+============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================
+    PORTFOLIO PSGE START
+===========================*/
+.wsus__prtfolio_page .wsus__single_portfolio {
+    margin: 0px 0px 25px 0px;
+}
+
+/*============================
+    PORTFOLIO PSGE END
+===========================*/
+
+
+
+/*============================
+    PORTFOLIO DETAILS START
+===========================*/
+.wsus__prtfolio_details{}
+
+.wsus__prtfolio_details_img {
+    height: 500px;
+    margin: 0px 12px;
+    box-shadow: var(box-shadow);
+}
+
+
+
+.wsus__prtfolio_details .slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.wsus__prtfolio_details .slick-dots li{}
+
+.wsus__prtfolio_details .slick-dots button {
+    width: 25px;
+    height: 10px;
+    border: none;
+    background: #e9ecef;
+    color: var(--primaryColor);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 0;
+    margin: 0px 3px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.wsus__prtfolio_details .slick-dots .slick-active button {
+    background: var(--primaryColor);
+    color: #fff;
+    width: 35px;
+}
+
+
+/*============================
+    PORTFOLIO DETAILS END
+===========================*/
 
 
 
@@ -1493,12 +1942,13 @@ footer {
 
 
 
+/*============================
+    START
+===========================*/
 
-
-
-
-
-
+/*============================
+    END
+===========================*/
 
 
 
