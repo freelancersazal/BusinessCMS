@@ -1944,7 +1944,7 @@ footer .relative {
     margin-bottom: 20px;
 }
 
-.sidebar_services ul li a {
+.portfolio_sidebar ul li a {
     width: 35px;
     height: 35px;
     margin: 0px 10px 0px 0px;
@@ -1957,11 +1957,11 @@ footer .relative {
     border-radius: 3px;
 }
 
-.sidebar_services ul li a::after{
+.portfolio_sidebar ul li a::after{
     display: none;
 }
 
-.sidebar_services ul li a:hover {
+.portfolio_sidebar ul li a:hover {
     padding: 0;
     color: var(--whiteColor);
     background: var(--primaryColor);
@@ -1974,23 +1974,82 @@ footer .relative {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*============================
-    START
+    BLOG DETAILS START
 ===========================*/
+.wsus__blog_details{}
+
+.wsus__blog_det_img{
+    height: 500px;
+    position: relative;
+}
+
+.wsus__blog_det_img img{}
+
+.wsus__blog_det_img .date {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    background: var(--primaryColor);
+    text-transform: capitalize;
+    color: var(--whiteColor);
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: var(--boxShadow);
+    border-radius: 3px;
+}
+
+.wsus__blog_det_img .date span {
+    display: block;
+    text-transform: capitalize;
+    color: var(--whiteColor);
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.wsus__blog_det_img .bloger {
+    position: absolute;
+    bottom: 20px;
+    left: 160px;
+}
+
+.wsus__blog_det_img .bloger span {
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    background: var(--primaryColor);
+    padding: 2px 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.wsus__blog_det_img .bloger span i{
+    margin-right: 5px;
+}
+
+.wsus__blog_det_text{}
+
+
+.wsus__blog_det_text h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.wsus__blog_det_text p {
+    margin-top: 25px;
+}
+
 
 /*============================
-    END
+    BLOG DETAILS END
 ===========================*/
 
 
