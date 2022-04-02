@@ -345,7 +345,7 @@ textarea::placeholder{
     position: fixed !important;
     left: 0px;
     top: 0;
-    z-index: 99;
+    z-index: 999;
     animation: menu_animate 1s ease-in-out;
     -webkit-animation: menu_animate 1s ease-in-out;
 }
@@ -1922,7 +1922,50 @@ footer .relative {
     width: 35px;
 }
 
+.portfolio_sidebar h3 {
+    font-size: 20px;
+}
 
+.portfolio_sidebar h5 {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.portfolio_sidebar h5 span {
+    color: var(--primaryColor);
+    width: 25px;
+    display: inline-block;
+}
+
+.portfolio_sidebar p {
+    text-transform: capitalize;
+    padding-left: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sidebar_services ul li a {
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+    position: static;
+    background: var(--secondaryColor);
+    color: var(--whiteColor);
+    line-height: 37px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.sidebar_services ul li a::after{
+    display: none;
+}
+
+.sidebar_services ul li a:hover {
+    padding: 0;
+    color: var(--whiteColor);
+    background: var(--primaryColor);
+}
 /*============================
     PORTFOLIO DETAILS END
 ===========================*/
