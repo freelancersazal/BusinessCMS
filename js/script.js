@@ -86,7 +86,18 @@ $('.prtfolio_det_slider').slick({
 
 
 }); 
-  
+
+
+//*=======EX ZOOMER====== 
+if($("#exzoom").length > 0){
+    $("#exzoom").exzoom({
+        autoPlay: false,
+    });
+}
+
+
+//========NICE SELECT=======
+$('#select_js').niceSelect();
     
     
     
