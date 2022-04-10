@@ -159,10 +159,10 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
-            <h1>contact us</h1>
+            <h1>cart view</h1>
             <ul>
               <li><a href="#">home</a></li>
-              <li><a href="#">contact us</a></li>
+              <li><a href="#">cart view</a></li>
             </ul>
           </div>
         </div>
@@ -174,73 +174,123 @@
   ==============================-->
 
 
-  <!--=========================
-    CONTACT START
-  ===========================-->
-  <section class="wsus__contact mt_100 xs_mt_75">
+  <!--=============================
+    CART VIEW START
+  ==============================-->
+  <section class="wsus__cart_view mt_100 xs_mt_75">
     <div class="container">
       <div class="row">
-        <div class="col-xl-11 ms-auto">
-            <div class="wsus__contact_area" style="background: url(images/contact_bg.jpg);">
-              <div class="row">
-                <div class="col-xl-3">
-                  <div class="wsus__contact_adress">
-                    <h3>contact info</h3>
-                    <p><span><i class="fal fa-map-marker-alt"></i></span> 7232 BROADWAY SUITE 308 JACKSON HEIGHTS 11372 NEW YORK United States</p>
-                    <p><span><i class="fal fa-phone-alt"></i></span> +1 347 430 9510</p>
-                    <p><span><i class="fal fa-envelope"></i></span> contact.us@gmail.com</p>
-                    <ul class="d-flex">
-                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xl-9">
-                  <div class="wsus__contact_message">
-                    <h3>contact info</h3>
-                    <form>
-                      <div class="row">
-                        <div class="col-xl-6">
-                          <label>name</label>
-                          <input type="text" placeholder="Name">
-                        </div>
-                        <div class="col-xl-6">
-                          <label>email</label>
-                          <input type="email" placeholder="Email">
-                        </div>
-                        <div class="col-xl-6">
-                          <label>phone</label>
-                          <input type="text" placeholder="Phone">
-                        </div>
-                        <div class="col-xl-6">
-                          <label>subject</label>
-                          <input type="text" placeholder="Subject">
-                        </div>
-                        <div class="col-xl-12">
-                          <label>Message</label>
-                          <textarea rows="5" placeholder="Message"></textarea>
-                          <button type="submit" class="common_btn">send</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
         <div class="col-xl-12">
-          <div class="con_map mt_100 xs_mt_75">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.37364699316!2d90.37241961478522!3d23.805308784562346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0d4b2853ba7%3A0xe8a58c0087a77244!2sBangladesh%20Road%20Transport%20Authority%20(BRTA)%2C%20Dhaka%20Metro%20Circle-1!5e0!3m2!1sen!2sbd!4v1649336013837!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="wsus__cart_item">
+            <div class="table-responsive">
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th class="images">images</th>
+                    <th class="details">details</th>
+                    <th class="quentity">quentity</th>
+                    <th class="price">price</th>
+                    <th class="total">total</th>
+                    <th class="delete"><a href="#" class="common_btn">clear all</a></th>
+                  </tr>
+                  <tr>
+                    <td class="images">
+                      <img src="images/product_1.jpg" alt="product" class="img-fluid w-100">
+                    </td>
+                    <td class="details">
+                      <a href="#">apple 7 series Smart Watch</a>
+                      <p>color: black</p>
+                    </td>
+                    <td class="quentity">
+                      <div class="quentity_btn">
+                        <button class="btn btn-danger">-</button>
+                        <input type="text" placeholder="1">
+                        <button class="btn btn-success">+</button>
+                     </div>
+                    </td>
+                    <td class="price"><p>$359.00</p></td>
+                    <td class="total"><p>$359.00</p></td>
+                    <td class="delete"><a href="#" class="delete_icon"><i class="fal fa-trash"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="images">
+                      <img src="images/product_2.jpg" alt="product" class="img-fluid w-100">
+                    </td>
+                    <td class="details">
+                      <a href="#">men's fashion Light Gray Hoodie</a>
+                      <p>color: gray</p>
+                      <p>size: L</p>
+                    </td>
+                    <td class="quentity">
+                      <div class="quentity_btn">
+                        <button class="btn btn-danger">-</button>
+                        <input type="text" placeholder="1">
+                        <button class="btn btn-success">+</button>
+                     </div>
+                    </td>
+                    <td class="price"><p>$35.00</p></td>
+                    <td class="total"><p>$70.00</p></td>
+                    <td class="delete"><a href="#" class="delete_icon"><i class="fal fa-trash"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="images">
+                      <img src="images/product_3.jpg" alt="product" class="img-fluid w-100">
+                    </td>
+                    <td class="details">
+                      <a href="#">Black Umbrella</a>
+                      <p>color: black</p>
+                    </td>
+                    <td class="quentity">
+                      <div class="quentity_btn">
+                        <button class="btn btn-danger">-</button>
+                        <input type="text" placeholder="1">
+                        <button class="btn btn-success">+</button>
+                     </div>
+                    </td>
+                    <td class="price"><p>$20.00</p></td>
+                    <td class="total"><p>$20.00</p></td>
+                    <td class="delete"><a href="#" class="delete_icon"><i class="fal fa-trash"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="images">
+                      <img src="images/product_5.jpg" alt="product" class="img-fluid w-100">
+                    </td>
+                    <td class="details">
+                      <a href="#">Slip-on Sneakers</a>
+                      <p>color: white</p>
+                      <p>size: 40</p>
+                    </td>
+                    <td class="quentity">
+                      <div class="quentity_btn">
+                        <button class="btn btn-danger">-</button>
+                        <input type="text" placeholder="1">
+                        <button class="btn btn-success">+</button>
+                     </div>
+                    </td>
+                    <td class="price"><p>$40.00</p></td>
+                    <td class="total"><p>$40.00</p></td>
+                    <td class="delete"><a href="#" class="delete_icon"><i class="fal fa-trash"></i></a></td>
+                  </tr>
+                  <tr>
+                    <th class="images"></th>
+                    <th class="details">sub total</th>
+                    <th class="quentity">04</th>
+                    <th class="price">$310.00</th>
+                    <th class="total">$459.00</th>
+                    <th class="delete"></th>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="#" class="common_btn chechout_btn">checkout</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--=========================
-    CONTACT END 
-  ===========================-->
+  <!--=============================
+    CART VIEW END
+  ==============================-->
 
 
   <!--=========================
@@ -354,7 +404,6 @@
   <!--=========================
     FOOTER END 
   ===========================-->
-
 
 
   <!--jquery library js-->

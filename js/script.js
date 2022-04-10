@@ -186,7 +186,24 @@ $('.team_slider').slick({
 
 
 
+//*==========ISOTOPE============== 
+var $grid = $('.grid').isotope({});
 
+$('.gallery_filter').on('click', 'button', function () {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({
+        filter: filterValue
+    });
+});
+
+//active class
+$('.gallery_filter button').on("click", function (event) {
+
+    $(this).siblings('.active').removeClass('active');
+    $(this).addClass('active');
+    event.preventDefault();
+
+});  
 
 
 

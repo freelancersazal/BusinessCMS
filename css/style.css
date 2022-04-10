@@ -927,7 +927,8 @@ textarea::placeholder{
 /*============================
     PORTFOLIOS START
  ===========================*/
- .wsus__single_portfolio {
+ .wsus__single_portfolio,
+ .gallery_item {
     height: 270px;
     border-radius: 5px;
     overflow: hidden;
@@ -1582,8 +1583,8 @@ footer .relative {
     font-size: 16px;
 }
 
-.wsus__footer_content .venobox {
-    height: 75px;
+.wsus__footer_content .insta_photo {
+    height: 70px;
     margin-bottom: 10px;
     margin-top: 7px;
     border-radius: 3px;
@@ -1591,7 +1592,7 @@ footer .relative {
     width: 100%;
 }
 
-.wsus__footer_content .venobox img {
+.wsus__footer_content a img {
     width: 100% !important;
     height: 100% !important;
 }
@@ -1848,9 +1849,8 @@ footer .relative {
 /*============================
     PORTFOLIO PSGE START
 ===========================*/
-.wsus__prtfolio_page 
-.wsus__single_portfolio {
-    margin: 0px 0px 25px 0px;
+.wsus__prtfolio_page .wsus__single_portfolio {
+	margin: 0px 0px 20px 0px;
 }
 /*============================
     PORTFOLIO PSGE END
@@ -2663,8 +2663,7 @@ footer .relative {
     position: relative;
 }
 
-.wsus__about_video_main .venobox{}
-
+.wsus__video_gallery .venobox span,
 .wsus__about_video_main .venobox span {
     width: 80px;
     height: 80px;
@@ -2681,6 +2680,7 @@ footer .relative {
     color: var(--primaryColor);
 }
 
+.wsus__video_gallery .venobox span::after,
 .wsus__about_video_main .venobox span::after {
 	position: absolute;
 	content: "";
@@ -2801,7 +2801,11 @@ footer .relative {
 /*============================
     CONTACT PAGE START 
 ===========================*/
-.wsus__contact{}
+/* .wsus__contact{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+} */
 
 .wsus__contact_area {
     background-position: center !important;
@@ -2895,6 +2899,617 @@ footer .relative {
 /*============================
     CONTACT PAGE END
 ===========================*/
+
+
+
+
+
+
+
+/*============================
+    LOGIN START
+===========================*/
+.wsus__login_area {
+	border: 1px solid var(--borderColor);
+	background: #fff;
+    position: relative;
+	border-radius: 5px;
+}
+
+.wsus__login_area::after {
+	position: absolute;
+	content: "";
+	background: var(--primaryColor);
+	width: 150px;
+	height: 150px;
+	top: -30px;
+	right: -30px;
+	z-index: -1;
+	border-radius: 5px;
+}
+.wsus__login_area h3 {
+	text-transform: capitalize;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.wsus__login_text {
+	width: 100%;
+	height: 100%;
+	background: var(--secondaryColor);
+	padding: 50px;
+	text-align: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wsus__login_text::before {
+	position: absolute;
+	content: "";
+	background: #ffffff63;
+	width: 150px;
+	height: 150px;
+	bottom: -60px;
+	left: -60px;
+	border-radius: 50%;
+}
+
+.wsus__login_text::after {
+	position: absolute;
+	content: "";
+	background: #ffffff38;
+	width: 100px;
+	height: 100px;
+	bottom: 15px;
+	left: 15px;
+	border-radius: 50%;
+}
+
+.wsus__login_text h3 {
+	color: #fff;
+}
+
+.wsus__login_text p{
+    color: #fff;
+}
+
+.wsus__login_text ul li a {
+	color: #fff;
+	margin: 0px 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.wsus__login_text ul li a:hover{
+    color: var(--primaryColor);
+}
+
+.login_form {
+	padding: 50px 50px 50px 25px;
+}
+
+.wsus__login_single {
+    position: relative;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.wsus__login_single span {
+	position: absolute;
+	width: 50px;
+	text-align: center;
+	height: 45px;
+	background: #ddd;
+	line-height: 45px;
+	color: var(--secondaryColor);
+}
+
+.wsus__login_single input{
+    padding-left: 70px;
+}
+
+.wsus__forget {
+	margin-top: -4px;
+	margin-bottom: 23px;
+}
+
+.wsus__forget .form-check {
+	margin: 0;
+}
+
+.wsus__forget .form-check input {
+	padding: 0;
+}
+
+.wsus__forget .form-check label {
+	text-transform: capitalize;
+	color: var(--paraColor);
+}
+
+.wsus__forget a {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #d33;
+}
+
+.wsus__login_single button {
+	border-radius: 3px;
+	width: 100%;
+}
+
+.login_form .or {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 25px;
+}
+
+.login_form .or span {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: var(--primaryColor);
+	padding: 0px 10px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+.login_form .or::after{
+    position: absolute;
+    content: "";
+    background: var(--primaryColor);
+    width: 100%;
+    height: 1px;
+    top: 51%;
+    right: 0;
+    z-index: -1;
+}
+
+.login_form h5 {
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.login_form ul li a {
+	width: 35px;
+	height: 35px;
+	border: 1px solid var(--borderColor);
+	text-align: center;
+	line-height: 35px;
+	margin-left: 15px;
+	border-radius: 3px;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+}
+
+.login_form ul li a:hover{
+    color: var(--primaryColor);
+}
+
+.login_form .go_register {
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+.login_form .go_register a {
+	color: var(--primaryColor);
+	font-weight: 600;
+}
+/*============================
+    LOGIN END
+===========================*/
+
+
+/*============================
+   404 START
+===========================*/
+.wsus__404{
+    width: 100%;
+    height: 83vh;
+    position: relative;
+}
+
+.wsus__404_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.wsus__404_text h1 {
+	font-size: 140px;
+	font-weight: 900;
+	font-family: var(--headingFont);
+	color: var(--primaryColor);
+}
+
+.wsus__404_text h4 {
+	font-size: 35px;
+	margin-top: 5px;
+	font-family: var(--headingFont);
+}
+
+.wsus__404_text p {
+	text-transform: capitalize;
+	margin-bottom: 45px;
+	margin-top: 10px;
+}
+/*============================
+   404 END
+===========================*/
+
+
+/*============================
+   TERMS & CONDITION START
+===========================*/
+.wsus__terms_text h4 {
+	text-transform: capitalize;
+	font-size: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-weight: 400;
+}
+
+.wsus__terms_text p{
+    margin-top: 25px;
+}
+/*============================
+   TERMS & CONDITION END
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================
+    PHOTO GALLERY START
+===========================*/
+
+
+.gallery_filter{}
+
+.gallery_filter button {
+	padding: 5px 15px;
+	border-radius: 3px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin: 0px 3px;
+}
+
+.gallery_filter button.active {
+	background: var(--secondaryColor);
+}
+
+.wsus__photo_gallery .view {
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+}
+
+.gallery_item {
+	width: 100%;
+	margin: 20px 0px -5px 0px;
+}
+/*============================
+    PHOTO GALLERY END
+===========================*/
+
+
+/*============================
+    VIDEO GALLERY START
+===========================*/
+.wsus__video_gallery .venobox{
+    position: relative;
+}
+
+.wsus__video_gallery .venobox::after {
+	position: absolute;
+	content: "";
+	background: #fb8500c2;
+	width: 100%;
+	height: 100%;
+	top: -170px;
+	left: 200px;
+	transform: rotate(45deg);
+}
+/*============================
+    VIDEO GALLERY END
+===========================*/
+
+
+/*============================
+    CART VIEW START
+===========================*/
+.wsus__cart_view{}
+
+.wsus__cart_item{}
+
+.wsus__cart_item table {
+	margin: 0;
+	border-right: 1px solid #6ea2c23d;
+	border-left: 1px solid #6ea2c23d;
+}
+
+.wsus__cart_item table tr{}
+
+.wsus__cart_item table tr th {
+	text-transform: capitalize;
+	background: #6ea2c23d;
+	font-weight: 600;
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+	color: var(--primaryColor);
+}
+
+.wsus__cart_item table tr {
+	display: flex;
+}
+
+.wsus__cart_item table tr td{
+    padding: 0;
+    border-bottom: 1px solid #6ea2c23d;
+}
+
+.wsus__cart_item table tr th, 
+.wsus__cart_item table tr td {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.wsus__cart_item table .images {
+	width: 10%;
+}
+
+.wsus__cart_item table .details {
+	width: 30%;
+}
+
+.wsus__cart_item table .quentity {
+	width: 21%;
+}
+
+.wsus__cart_item table .price,
+.wsus__cart_item table .total {
+	width: 15%;
+}
+
+
+.wsus__cart_item table .delete {
+	width: 10%;
+}
+
+.wsus__cart_item table .images img {
+	height: 110px !important;
+}
+
+.wsus__cart_item table .details a {
+	text-transform: capitalize;
+	color: var(--secondaryColor);
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+}
+
+.wsus__cart_item table .details a:hover{
+    color: var(--primaryColor);
+}
+
+.wsus__cart_item table .details p {
+	text-transform: capitalize;
+	margin-top: 5px;
+}
+
+.wsus__cart_item table .quentity p,
+.wsus__cart_item table .price p, 
+.wsus__cart_item table .total p{
+	font-weight: 600;
+	color: var(--paraColor);
+}
+
+.wsus__cart_item table .quentity p {
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 3px;
+}
+
+.wsus__cart_item table .delete .common_btn {
+	border-radius: 3px;
+	font-size: 14px;
+	padding: 5px 15px;
+}
+
+.wsus__cart_item table .delete .delete_icon{
+    color: #d33;
+}
+
+.wsus__cart_item .chechout_btn {
+	border-radius: 0;
+	width: 100%;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.wsus__cart_item table .total .common_btn {
+	font-size: 14px;
+}
+/*============================
+    CART VIEW END
+===========================*/
+
+
+
+
+/*============================
+    CHECKOUT START
+===========================*/
+
+.wsus__checkout{}
+
+.wsus__pay_method {
+	background: #6ea2c23d;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.wsus__pay_method #pills-tab {
+	
+}
+
+.wsus__pay_method #pills-tab li {
+	width: 20%;
+}
+
+.wsus__pay_method #pills-tab li button {
+	width: 100%;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: var(--paraColor);
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-bottom: 1px solid #ffffff87;
+	padding: 15px 10px;
+	border-right: 1px solid #ffffff87;
+}
+
+.wsus__pay_method #pills-tab li .active,
+.wsus__pay_method #pills-tab li button:hover {
+	background: var(--primaryColor);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.wsus__pay_address {
+	border: 1px solid var(--borderColor);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.wsus__checkout .form-check input {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.wsus__checkout .form-check label{
+    text-transform: capitalize;
+    color: var(--paraColor);
+}
+
+
+
+
+
+
+
+.wsus__pay_details {
+	border: 1px solid var(--borderColor);
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.wsus__checkout h4 {
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.wsus__pay_details label {
+	text-transform: capitalize;
+	margin-bottom: 5px;
+	color: var(--paraColor);
+}
+
+.wsus__checkout input,
+.wsus__checkout textarea{
+    margin-bottom: 25px;
+}
+
+.wsus__pay_details button {
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px 25px;
+}
+
+.wsus__pay_details p {
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.wsus__pay_details p span {
+	font-weight: 600;
+	display: inline-block;
+	width: 25%;
+}
+
+
+
+/*============================
+    CHECKOUT END
+===========================*/
+
+
+
+
+
+
 
 
 
