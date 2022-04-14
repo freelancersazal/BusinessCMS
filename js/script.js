@@ -110,7 +110,7 @@ $('#select_js').niceSelect();
 $('.clients_slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     dots: false,
     arrows: true,
@@ -147,7 +147,7 @@ $('.clients_slider').slick({
 $('.team_slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     dots: false,
     arrows: true,
@@ -206,10 +206,59 @@ $('.gallery_filter button').on("click", function (event) {
 });  
 
 
+// =====EVENT COUNTER=====
+var d = new Date(),
+    countUpDate = new Date();
+d.setDate(d.getDate() + 365);
 
+// default example
+simplyCountdown('.simply-countdown-one', {
+    year: d.getFullYear(),
+    month: d.getMonth() + 1,
+    day: d.getDate(),
+    enableUtc: true
+});
+    
 
+//*=======EVENT DETAILS SLIDER====== 
+$('.event_det_slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    dots: false,
+    arrows: true,
+    nextArrow: '<i class="fas fa-chevron-right nxt_arr"></i>',
+    prevArrow: '<i class="fas fa-chevron-left prv_arr"></i>',
 
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+            }
+        }   
+    ]
 
+}); 
 
 
 
