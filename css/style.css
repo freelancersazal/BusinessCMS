@@ -92,13 +92,7 @@ textarea::placeholder {
     --paraFont: 'Poppins', sans-serif;
     --titleFont: 'Oswald', sans-serif;
     --boxShadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-
 }
-
-/* font-family: 'Montserrat Alternates', sans-serif;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Poppins', sans-serif; */
-
 
 /*============================
     COMMON CSS START
@@ -123,8 +117,6 @@ textarea::placeholder {
     color: #FFF;
 }
 
-.wsus__heading_area {}
-
 .sub_heading {
     text-transform: capitalize;
     font-size: 18px;
@@ -145,11 +137,9 @@ textarea::placeholder {
 ===========================*/
 
 
-
-
 /*============================
     MENU START
- ===========================*/
+===========================*/
 .main_menu {
     width: 100%;
     height: 80px;
@@ -186,23 +176,38 @@ textarea::placeholder {
 }
 
 .wsus__droapdown {
-    position: absolute;
-    top: 115%;
-    left: 0;
-    width: 280px;
-    background: #fff;
-    z-index: 99;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s ease;
-    -moz-transition: all linear .3s ease;
-    -ms-transition: all linear .3s ease;
-    -o-transition: all linear .3s ease;
+	position: absolute;
+	top: 115%;
+	left: 0;
+	width: 280px;
+	background: #fff;
+	z-index: 99;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+    overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+	max-height: 550px;
+	overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #457b9d #e8e8e89c;
+}
+
+.wsus__droapdown::-webkit-scrollbar {
+	background: #e8e8e89c;
+	width: 6px;
+}
+
+.wsus__droapdown::-webkit-scrollbar-thumb {
+	background: #457b9d;
+	border-radius: 30px;
 }
 
 .wsus__droapdown li a {
@@ -256,7 +261,7 @@ textarea::placeholder {
 .main_menu .nav-item:hover .wsus__droapdown {
     opacity: 1;
     visibility: visible;
-    top: 101%;
+    top: 100%;
 }
 
 .menu_right li {
@@ -600,10 +605,6 @@ textarea::placeholder {
 ===========================*/
 
 
-
-
-
-
 /*============================
     ABOUT START
 ===========================*/
@@ -694,12 +695,9 @@ textarea::placeholder {
 ===========================*/
 
 
-
-
-
 /*============================
     WHY SHOOSE START
- ===========================*/
+===========================*/
 .wsus__why_choose_item {
     display: flex;
     justify-content: space-between;
@@ -743,10 +741,6 @@ textarea::placeholder {
     overflow: hidden;
 }
 
-.wsus__choose_detail_text {}
-
-.wsus__choose_detail_text p {}
-
 .wsus__choose_detail_text ul {
     margin: 30px 0px 35px 0px;
 }
@@ -775,15 +769,12 @@ textarea::placeholder {
 
 /*============================
     WHY SHOOSE END
- ===========================*/
-
+===========================*/
 
 
 /*============================
    SEERVICES START
- ===========================*/
-.wsus__services {}
-
+===========================*/
 .wsus__single_services {
     position: relative;
     margin-top: 40px;
@@ -841,26 +832,14 @@ textarea::placeholder {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 /*============================
    SEERVICES END
- ===========================*/
-
-
-
-
+===========================*/
 
 
 /*============================
     WORK PROCESS START
- ===========================*/
-.wsus__work_process {}
-
-
-.wsus__work_tabs {}
-
-.wsus__work_tabs .nav {}
-
+===========================*/
 .wsus__work_tabs .nav button {
     background: var(--primaryColor);
     padding: 10px 20px;
@@ -929,16 +908,14 @@ textarea::placeholder {
 .wsus__work_text p {
     margin-top: 32px;
 }
-
 /*============================
     WORK PROCESS END
- ===========================*/
-
+===========================*/
 
 
 /*============================
     PORTFOLIOS START
- ===========================*/
+===========================*/
 .wsus__single_portfolio,
 .gallery_item {
     height: 270px;
@@ -1029,7 +1006,6 @@ textarea::placeholder {
     left: 21px;
 }
 
-
 .wsus__event_details .nxt_arr:hover,
 .wsus__event_details .prv_arr:hover,
 .wsus__our_clients .nxt_arr:hover,
@@ -1045,12 +1021,12 @@ textarea::placeholder {
 
 /*============================
     PORTFOLIOS END
- ===========================*/
+===========================*/
 
 
 /*============================
     SUCCESS START
- ===========================*/
+===========================*/
 .wsus__success_img {
     height: 410px;
     padding: 0px 30px;
@@ -1109,21 +1085,14 @@ textarea::placeholder {
     float: left;
     text-align: right;
 }
-
-
-
 /*============================
     SUCCESS END
- ===========================*/
-
-
-
-
+===========================*/
 
 
 /*============================
     PRICING START
- ===========================*/
+===========================*/
 .wsus__single_pricing {
     box-shadow: var(--boxShadow);
     text-align: center;
@@ -1198,11 +1167,9 @@ textarea::placeholder {
 .wsus__single_pricing .common_btn:hover {
     background: #2b5875;
 }
-
 /*============================
     PRICING END
 ===========================*/
-
 
 
 /*============================
@@ -1328,7 +1295,6 @@ textarea::placeholder {
 .wsus__single_team:hover p {
     color: var(--whiteColor);
 }
-
 /*============================
     TEAM END
 ===========================*/
@@ -1455,11 +1421,9 @@ textarea::placeholder {
     align-items: center;
     justify-content: space-between;
 }
-
 /*========================
     TEAM DETAILS END
 =========================*/
-
 
 
 /*===========================
@@ -1604,14 +1568,9 @@ textarea::placeholder {
 .wsus__single_blog:hover .blog_title {
     color: var(--primaryColor);
 }
-
 /*===========================
     BLOG END 
 ============================*/
-
-
-
-
 
 
 /*============================
@@ -1772,11 +1731,9 @@ footer .relative {
     margin: 0 !important;
     padding: 0 !important;
 }
-
 /*============================
     FOOTER END
 ===========================*/
-
 
 
 /*============================
@@ -1869,7 +1826,6 @@ footer .relative {
 .wsus__pagination ul li a:focus {
     box-shadow: none;
 }
-
 /*============================
     SERVICES END
 ============================*/
@@ -1992,7 +1948,6 @@ footer .relative {
     margin-right: 10px;
     display: inline-block;
 }
-
 /*============================
     SERVICES DETAILS END
 ============================*/
@@ -2004,11 +1959,9 @@ footer .relative {
 .wsus__prtfolio_page .wsus__single_portfolio {
     margin: 0px 0px 20px 0px;
 }
-
 /*============================
     PORTFOLIO PSGE END
 ===========================*/
-
 
 
 /*============================
@@ -2361,11 +2314,9 @@ footer .relative {
     width: 75%;
     font-size: 18px;
 }
-
 /*============================
     BLOG DETAILS END
 ===========================*/
-
 
 
 /*============================
@@ -2549,10 +2500,6 @@ footer .relative {
     font-size: 20px;
 }
 
-/* .wsus__shop_item:hover {
-    border: 1px solid #eee;
-} */
-
 .wsus__shop_text a:hover {
     color: var(--primaryColor);
 }
@@ -2561,20 +2508,14 @@ footer .relative {
     bottom: 10px;
     opacity: 1;
 }
-
 /*============================
     SHOP END
 ===========================*/
 
 
-
 /*============================
     SHOP DETAILS START
 ===========================*/
-.wsus__shop_details {}
-
-.wsus__product_details_area {}
-
 .wsus__product_details_area h3 {
     text-transform: capitalize;
     font-size: 35px;
@@ -2683,12 +2624,6 @@ footer .relative {
     border: 1px solid var(--primaryColor);
 }
 
-
-
-
-
-.wsus__pro_description {}
-
 .wsus__pro_description #pills-tab {
     justify-content: center;
     padding-bottom: 40px;
@@ -2708,17 +2643,10 @@ footer .relative {
     color: var(--whiteColor);
 }
 
-
-
-
-.features {}
-
 .features table {
     border: 1px solid #ddd;
     margin: 0 !important;
 }
-
-.features .table tr {}
 
 .features .table tr th {
     border-right: 1px solid #ddd;
@@ -2793,18 +2721,14 @@ footer .relative {
     margin-bottom: 0;
     margin-top: 25px;
 }
-
 /*============================
     SHOP DETAILS END
 ===========================*/
 
 
-
 /*============================
     ABOUT PAGE START
 ===========================*/
-.wsus__about_video {}
-
 .wsus__about_video_main {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -2850,7 +2774,6 @@ footer .relative {
     background: #fff;
     z-index: -1;
 }
-
 
 @keyframes icon_animi {
     0% {
@@ -2954,17 +2877,9 @@ footer .relative {
 ============================*/
 
 
-
-
 /*============================
     CONTACT PAGE START 
 ===========================*/
-/* .wsus__contact{
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-} */
-
 .wsus__contact_area {
     background-position: center !important;
     background-repeat: repeat !important;
@@ -3029,10 +2944,6 @@ footer .relative {
     color: var(--primaryColor);
 }
 
-
-
-.wsus__contact_message {}
-
 .wsus__contact_message label {
     text-transform: capitalize;
     margin-bottom: 5px;
@@ -3060,11 +2971,6 @@ footer .relative {
 /*============================
     CONTACT PAGE END
 ===========================*/
-
-
-
-
-
 
 
 /*============================
@@ -3339,31 +3245,14 @@ footer .relative {
 .wsus__terms_text p {
     margin-top: 25px;
 }
-
 /*============================
    TERMS & CONDITION END
 ===========================*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*============================
     PHOTO GALLERY START
 ===========================*/
-
-
-.gallery_filter {}
-
 .gallery_filter button {
     padding: 5px 15px;
     border-radius: 3px;
@@ -3378,7 +3267,8 @@ footer .relative {
 
 
 .wsus__event_details .view,
-.wsus__photo_gallery .view {
+.wsus__photo_gallery .view,
+.sidebar_services .view {
     color: #fff;
     width: 30px;
     height: 30px;
@@ -3415,7 +3305,6 @@ footer .relative {
     left: 200px;
     transform: rotate(45deg);
 }
-
 /*============================
     VIDEO GALLERY END
 ===========================*/
@@ -3424,17 +3313,11 @@ footer .relative {
 /*============================
     CART VIEW START
 ===========================*/
-.wsus__cart_view {}
-
-.wsus__cart_item {}
-
 .wsus__cart_item table {
     margin: 0;
     border-right: 1px solid #6ea2c23d;
     border-left: 1px solid #6ea2c23d;
 }
-
-.wsus__cart_item table tr {}
 
 .wsus__cart_item table tr th {
     text-transform: capitalize;
@@ -3548,28 +3431,21 @@ footer .relative {
 .wsus__cart_item table .total .common_btn {
     font-size: 14px;
 }
-
 /*============================
     CART VIEW END
 ===========================*/
 
 
 
-
 /*============================
     CHECKOUT START
 ===========================*/
-
-.wsus__checkout {}
-
 .wsus__pay_method {
     background: #6ea2c23d;
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 25px;
 }
-
-.wsus__pay_method #pills-tab {}
 
 .wsus__pay_method #pills-tab li {
     width: 20%;
@@ -3596,14 +3472,6 @@ footer .relative {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
 .wsus__pay_address {
     border: 1px solid var(--borderColor);
     padding: 20px;
@@ -3619,12 +3487,6 @@ footer .relative {
     text-transform: capitalize;
     color: var(--paraColor);
 }
-
-
-
-
-
-
 
 .wsus__pay_details {
     border: 1px solid var(--borderColor);
@@ -4040,7 +3902,6 @@ footer .relative {
 ===========================*/
 
 
-
 /*============================
     EVENTS SETAILS START
 ===========================*/
@@ -4049,46 +3910,41 @@ footer .relative {
 	position: relative;
 }
 
-.wsus__event_details_img ul {
-	position: absolute;
-	width: 100%;
-	bottom: -25px;
-	left: 0;
-}
-
-.wsus__event_details_img ul li {
+.wsus__event_details_img .simply-countdown.simply-countdown-one {
 	display: flex;
-	align-items: center;
-	width: 190px;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: absolute;
 	background: var(--primaryColor);
-	margin: 0px 5px;
-	padding: 0px 15px;
+	left: 0;
+	bottom: -35px;
 }
 
-.wsus__event_details_img ul li .wsus__icon {
+.wsus__event_details_img .simply-section.simply-days-section, 
+.wsus__event_details_img .simply-section.simply-hours-section, 
+.wsus__event_details_img .simply-section.simply-minutes-section, 
+.wsus__event_details_img .simply-section.simply-seconds-section {
+	text-align: center;
+	border-right: 1px solid #ffffff5c;
+	width: 85px;
+	padding: 10px 0px;
+}
+
+.wsus__event_details_img .simply-amount {
 	color: #fff;
-	border-right: 1px solid #fff;
-	padding-right: 15px;
-	height: 50px;
-	line-height: 53px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--headingFont);
+    font-size: 25px;
 }
 
-.wsus__event_details_img ul li .wsus__text {
-	padding-left: 15px;
-}
-
-.wsus__event_details_img ul li .wsus__text span {
-	text-transform: capitalize;
+.wsus__event_details_img .simply-word {
 	color: #fff;
-	font-weight: 600;
-	font-size: 14px;
-}
-
-.wsus__event_details_img ul li .wsus__text p {
-	text-transform: capitalize;
-	color: #fff;
-	font-size: 14px;
-	margin-bottom: 2px;
+    text-transform: capitalize;
+    font-size: 12px;
+    text-align: center;
+    display: block;
 }
 
 .wsus__event_details_text {
@@ -4136,6 +3992,31 @@ footer .relative {
 .event_gallery {
 	padding: 0px 12px;
 	margin-top: 30px;
+}
+
+.event_sidebar p {
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.event_sidebar p span {
+	display: inline-block;
+	width: 90px;
+	font-weight: 600;
+}
+
+.event_sidebar p span i{
+    margin-right: 5px;
+    color: var(--primaryColor);
+}
+
+.event_sidebar a {
+	margin-top: 5px;
+}
+
+.event_sidebar iframe {
+	width: 100%;
+	border: 1px solid #ddd !important;
 }
 /*============================
     EVENTS SETAILS END
@@ -4229,30 +4110,209 @@ footer .relative {
 	width: 70%;
 	margin: 0 auto;
 }
-
-
 /*============================
    COMING SOON END
 ===========================*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*============================
-    START
+    APPOINTMENT START
+===========================*/
+.wsus__appointment .wsus__login_text {
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	padding: 0;
+}
+
+.wsus__appointment .wsus__login_text::after,
+.wsus__appointment .wsus__login_text::before {
+	display: none;
+}
+
+.wsus__appointment .wsus__login_text_overlay {
+	background: #0000008c;
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.appintment_form .wsus__login_single {
+	display: block;
+}
+
+.appintment_form label {
+	display: block;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+
+.appintment_form select {
+	width: 100%;
+	padding: 10px 15px;
+	color: var(--paraColor);
+	font-size: 16px;
+	outline: none;
+	resize: none;
+	border-radius: 3px;
+	border: 1px solid var(--borderColor);
+	background: #fff;
+	text-transform: capitalize;
+}
+
+.appintment_form input {
+	padding: 10px 15px;
+}
+
+.appintment_form .date input{
+    text-transform: uppercase;
+}
+/*============================
+    APPOINTMENT END
 ===========================*/
 
+
 /*============================
-    END
+    DONATION START
+===========================*/
+.wsus__donation_img {
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.wsus__donation_text {
+	background: #fff;
+	padding: 30px;
+	box-shadow: var(--boxShadow);
+	width: 90%;
+	margin-left: 5%;
+	margin-top: -50px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.wsus__donation_text h2 {
+	text-transform: capitalize;
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.wsus__donate_progress {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.wsus__donate_progress .progress_bar label {
+	display: block;
+	width: 100%;
+	color: var(--paraColor);
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+
+.wsus__donate_progress .progress_bar label span {
+	color: var(--primaryColor);
+}
+
+.wsus__donate_progress .progress_bar {
+	width: 60%;
+}
+
+.wsus__donate_progress .progress {
+	height: 15px;
+	border-radius: 30px;
+}
+
+.wsus__donate_progress .progress .progress-bar {
+	background: var(--primaryColor);
+}
+
+.wsus__donation_details {
+	margin-top: 70px;
+}
+
+.wsus__donation_details p {
+	margin-top: 25px;
+}
+
+.wsus__donation_small_text h4 {
+	text-transform: capitalize;
+	color: var(--primaryColor);
+	margin-top: 20px;
+}
+
+.wsus__donation_small_img {
+	margin-top: 25px;
+	height: 455px;
+	border-radius: 10px;
+	overflow: hidden;
+    position: relative;
+}
+
+.wsus__donation_small_img p {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: var(--headingFont);
+	color: #fff;
+}
+
+.wsus__donation_small_img p span {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background: #fff;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	font-size: 25px;
+	color: var(--primaryColor);
+	margin-right: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.wsus__donation_small_img p span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    animation: icon_animi 1.5s infinite;
+    background: #fff;
+    z-index: -1;
+}
+
+@keyframes icon_animi {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
+
+.sidebar_services .gallery_item {
+	height: 100px;
+}
+/*============================
+    DONATION END
 ===========================*/

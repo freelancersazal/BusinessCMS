@@ -260,11 +260,4 @@ $('.event_det_slider').slick({
 
 }); 
 
-
-
-
-
-
-    
-
 });
