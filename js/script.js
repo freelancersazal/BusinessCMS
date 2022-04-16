@@ -95,7 +95,7 @@ $(function () {
     $('#select_js').niceSelect();
         
 
-    //*=======TEAM SLIDER====== 
+    //*=======clients slider====== 
     $('.clients_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -129,11 +129,11 @@ $(function () {
     }); 
 
 
-    //*=======TEAM SLIDER====== 
-    $('.team_slider').slick({
+    //*=======TESTIMONIAL SLIDER====== 
+    $('.testi_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,

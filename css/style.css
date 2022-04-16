@@ -98,18 +98,19 @@ textarea::placeholder {
     COMMON CSS START
 ===========================*/
 .common_btn {
-    background: var(--primaryColor);
-    color: var(--bs-white);
-    padding: 15px 25px;
-    border-radius: 40px;
-    text-transform: capitalize;
-    font-weight: 600;
-    border: none;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s ease;
-    -moz-transition: all linear .3s ease;
-    -ms-transition: all linear .3s ease;
-    -o-transition: all linear .3s ease;
+	background: var(--primaryColor);
+	color: var(--bs-white);
+	padding: 15px 25px;
+	border-radius: 40px;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: none;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+	text-align: center;
 }
 
 .common_btn:hover {
@@ -118,20 +119,21 @@ textarea::placeholder {
 }
 
 .sub_heading {
-    text-transform: capitalize;
-    font-size: 18px;
-    color: var(--primaryColor);
-    margin-bottom: 15px;
-    font-family: var(--headingFont);
+	text-transform: capitalize;
+	font-size: 18px;
+	color: var(--primaryColor);
+	margin-bottom: 15px;
+	font-family: var(--headingFont);
+	text-align: center;
 }
 
 .heading {
-    font-weight: 700;
-    text-transform: capitalize;
-    font-size: 35px;
-    font-family: var(--headingFont);
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 35px;
+	font-family: var(--headingFont);
+	text-align: center;
 }
-
 /*============================
     COMMON CSS END
 ===========================*/
@@ -344,24 +346,21 @@ textarea::placeholder {
     visibility: visible;
 }
 
-.menu_right li a.cart_compare {
-    margin-right: 7px;
-}
-
 .menu_right li a span {
-    background: var(--primaryColor);
-    width: 25px;
-    height: 25px;
-    display: block;
-    line-height: 25px;
-    color: var(--whiteColor);
-    font-size: 12px;
-    border-radius: 50%;
-    position: absolute;
-    top: -10px;
-    right: -7px;
-    box-shadow: var(--boxShadow);
-    font-weight: 600;
+	background: var(--primaryColor);
+	width: 25px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	color: var(--whiteColor);
+	font-size: 12px;
+	border-radius: 50%;
+	position: absolute;
+	top: -10px;
+	right: -7px;
+	box-shadow: var(--boxShadow);
+	font-weight: 600;
+	text-align: center;
 }
 
 .menu_fix {
@@ -498,6 +497,9 @@ textarea::placeholder {
     background: #2b5e7e;
 }
 
+.wsus__mini_cart .offcanvas-body {
+	overflow: hidden;
+}
 /*============================
     MENU END
 ===========================*/
@@ -703,7 +705,6 @@ textarea::placeholder {
     justify-content: space-between;
     align-content: center;
     background: #e8e8e89c;
-    /* border: 1px solid var(--borderColor); */
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 5px;
@@ -767,6 +768,12 @@ textarea::placeholder {
     font-size: 16px;
 }
 
+.wsus__about .sub_heading,
+.wsus__about .heading,
+.wsus__why_choose .sub_heading,
+.wsus__why_choose .heading{
+    text-align: left;
+}
 /*============================
     WHY SHOOSE END
 ===========================*/
@@ -1111,15 +1118,17 @@ textarea::placeholder {
 }
 
 .wsus__single_pricing h4 {
-    text-transform: capitalize;
-    margin-bottom: 37px;
+	text-transform: capitalize;
+	margin-bottom: 37px;
+	text-align: center;
 }
 
 .wsus__single_pricing h2 {
-    text-transform: capitalize;
-    font-size: 45px;
-    color: var(--primaryColor);
-    font-weight: 700;
+	text-transform: capitalize;
+	font-size: 45px;
+	color: var(--primaryColor);
+	font-weight: 700;
+	text-align: center;
 }
 
 .wsus__single_pricing h2 b {
@@ -1127,9 +1136,10 @@ textarea::placeholder {
 }
 
 .wsus__single_pricing h2 span {
-    display: block;
-    color: var(--primaryColor);
-    font-size: 20px;
+	display: block;
+	color: var(--primaryColor);
+	font-size: 20px;
+	text-align: center;
 }
 
 .wsus__single_pricing ul {
@@ -1253,17 +1263,18 @@ textarea::placeholder {
 }
 
 .wsus__team_text a {
-    text-transform: capitalize;
-    font-size: 22px;
-    margin-bottom: 5px;
-    font-family: var(--titleFont);
-    color: var(--secondaryColor);
-    width: 100%;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s ease;
-    -moz-transition: all linear .3s ease;
-    -ms-transition: all linear .3s ease;
-    -o-transition: all linear .3s ease;
+	text-transform: capitalize;
+	font-size: 22px;
+	margin-bottom: 5px;
+	font-family: var(--titleFont);
+	color: var(--secondaryColor);
+	width: 100%;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
+	text-align: center;
 }
 
 .wsus__team_text p {
@@ -1276,6 +1287,7 @@ textarea::placeholder {
     -moz-transition: all linear .3s ease;
     -ms-transition: all linear .3s ease;
     -o-transition: all linear .3s ease;
+    text-align: center;
 }
 
 .wsus__single_team.active .wsus__team_link,
@@ -1690,6 +1702,15 @@ footer .relative {
     color: #cdcbcb;
     text-transform: capitalize;
     font-size: 16px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.wsus__footer_content .footer_link li a:hover {
+	color: var(--primaryColor);
 }
 
 .wsus__footer_content .insta_photo {
@@ -1719,8 +1740,9 @@ footer .relative {
 }
 
 .wsus__copyright p {
-    color: #cdcbcb;
-    text-transform: capitalize;
+	color: #cdcbcb;
+	text-transform: capitalize;
+	text-align: center;
 }
 
 .wsus__copyright p a {
@@ -1760,12 +1782,13 @@ footer .relative {
 }
 
 .wsus__breadcrumb h1 {
-    color: var(--whiteColor);
-    text-transform: capitalize;
-    font-size: 50px;
-    font-weight: 700;
-    font-family: var(--headingFont);
-    margin-bottom: 10px;
+	color: var(--whiteColor);
+	text-transform: capitalize;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: var(--headingFont);
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .wsus__breadcrumb ul {
@@ -2862,12 +2885,14 @@ footer .relative {
     text-transform: capitalize;
     font-size: 25px;
     margin: 20px 0px 5px 0px;
+    text-align: center;
 }
 
 .wsus__testimonial_single .designation {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
 }
 
 .wsus__testimonial_single .description {
@@ -2883,10 +2908,10 @@ footer .relative {
 }
 
 .wsus__testimonial_single span {
-    display: block;
-    color: var(--primaryColor);
+	display: block;
+	color: var(--primaryColor);
+	text-align: center;
 }
-
 /*============================
     ABOUT PAGE END
 ============================*/
@@ -3014,6 +3039,7 @@ footer .relative {
     text-transform: capitalize;
     font-size: 30px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .wsus__login_text {
@@ -3056,7 +3082,8 @@ footer .relative {
 }
 
 .wsus__login_text p {
-    color: #fff;
+	color: #fff;
+	text-align: center;
 }
 
 .wsus__login_text ul li a {
@@ -3223,10 +3250,11 @@ footer .relative {
 }
 
 .wsus__404_text h1 {
-    font-size: 140px;
-    font-weight: 900;
-    font-family: var(--headingFont);
-    color: var(--primaryColor);
+	font-size: 140px;
+	font-weight: 900;
+	font-family: var(--headingFont);
+	color: var(--primaryColor);
+	text-align: center;
 }
 
 .wsus__404_text h4 {
@@ -3470,18 +3498,19 @@ footer .relative {
 }
 
 .wsus__pay_method #pills-tab li button {
-    width: 100%;
-    text-transform: capitalize;
-    font-weight: 600;
-    color: var(--paraColor);
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    border-bottom: 1px solid #ffffff87;
-    padding: 15px 10px;
-    border-right: 1px solid #ffffff87;
+	width: 100%;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: var(--paraColor);
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-bottom: 1px solid #ffffff87;
+	padding: 15px 10px;
+	border-right: 1px solid #ffffff87;
+	text-align: center;
 }
 
 .wsus__pay_method #pills-tab li .active,
@@ -3583,10 +3612,11 @@ footer .relative {
 }
 
 .wsus__faq_text h3 {
-    text-transform: capitalize;
-    font-size: 35px;
-    font-weight: 600;
-    color: var(--primaryColor);
+	text-transform: capitalize;
+	font-size: 35px;
+	font-weight: 600;
+	color: var(--primaryColor);
+	text-align: center;
 }
 
 .wsus__faq_text .common_btn {
@@ -4275,11 +4305,12 @@ footer .relative {
 }
 
 .wsus__donation_small_img {
-    margin-top: 25px;
-    height: 455px;
-    border-radius: 10px;
-    overflow: hidden;
-    position: relative;
+	margin-top: 25px;
+	height: 455px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
 }
 
 .wsus__donation_small_img p {
@@ -4343,3 +4374,4 @@ footer .relative {
 /*============================
     DONATION END
 ===========================*/
+
