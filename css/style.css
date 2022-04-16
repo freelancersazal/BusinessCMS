@@ -176,38 +176,38 @@ textarea::placeholder {
 }
 
 .wsus__droapdown {
-	position: absolute;
-	top: 115%;
-	left: 0;
-	width: 280px;
-	background: #fff;
-	z-index: 99;
-	padding: 10px;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+    position: absolute;
+    top: 115%;
+    left: 0;
+    width: 280px;
+    background: #fff;
+    z-index: 99;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     overflow: hidden;
-	opacity: 0;
-	visibility: hidden;
-	transition: all linear .3s;
-	-webkit-transition: all linear .3s ease;
-	-moz-transition: all linear .3s ease;
-	-ms-transition: all linear .3s ease;
-	-o-transition: all linear .3s ease;
-	max-height: 550px;
-	overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+    max-height: 550px;
+    overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #457b9d #e8e8e89c;
 }
 
 .wsus__droapdown::-webkit-scrollbar {
-	background: #e8e8e89c;
-	width: 6px;
+    background: #e8e8e89c;
+    width: 6px;
 }
 
 .wsus__droapdown::-webkit-scrollbar-thumb {
-	background: #457b9d;
-	border-radius: 30px;
+    background: #457b9d;
+    border-radius: 30px;
 }
 
 .wsus__droapdown li a {
@@ -832,6 +832,7 @@ textarea::placeholder {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 /*============================
    SEERVICES END
 ===========================*/
@@ -908,6 +909,7 @@ textarea::placeholder {
 .wsus__work_text p {
     margin-top: 32px;
 }
+
 /*============================
     WORK PROCESS END
 ===========================*/
@@ -1085,6 +1087,7 @@ textarea::placeholder {
     float: left;
     text-align: right;
 }
+
 /*============================
     SUCCESS END
 ===========================*/
@@ -1167,6 +1170,7 @@ textarea::placeholder {
 .wsus__single_pricing .common_btn:hover {
     background: #2b5875;
 }
+
 /*============================
     PRICING END
 ===========================*/
@@ -1295,6 +1299,7 @@ textarea::placeholder {
 .wsus__single_team:hover p {
     color: var(--whiteColor);
 }
+
 /*============================
     TEAM END
 ===========================*/
@@ -1421,6 +1426,7 @@ textarea::placeholder {
     align-items: center;
     justify-content: space-between;
 }
+
 /*========================
     TEAM DETAILS END
 =========================*/
@@ -1568,6 +1574,7 @@ textarea::placeholder {
 .wsus__single_blog:hover .blog_title {
     color: var(--primaryColor);
 }
+
 /*===========================
     BLOG END 
 ============================*/
@@ -1695,9 +1702,9 @@ footer .relative {
 }
 
 .footer_img a {
-	width: 100%;
-	height: 80px;
-	margin: 7px 0px 13px 0px;
+    width: 100%;
+    height: 80px;
+    margin: 7px 0px 13px 0px;
 }
 
 .wsus__footer_content a img {
@@ -1731,6 +1738,7 @@ footer .relative {
     margin: 0 !important;
     padding: 0 !important;
 }
+
 /*============================
     FOOTER END
 ===========================*/
@@ -1826,6 +1834,7 @@ footer .relative {
 .wsus__pagination ul li a:focus {
     box-shadow: none;
 }
+
 /*============================
     SERVICES END
 ============================*/
@@ -1948,6 +1957,7 @@ footer .relative {
     margin-right: 10px;
     display: inline-block;
 }
+
 /*============================
     SERVICES DETAILS END
 ============================*/
@@ -1959,6 +1969,7 @@ footer .relative {
 .wsus__prtfolio_page .wsus__single_portfolio {
     margin: 0px 0px 20px 0px;
 }
+
 /*============================
     PORTFOLIO PSGE END
 ===========================*/
@@ -1970,7 +1981,7 @@ footer .relative {
 .wsus__prtfolio_details_img {
     height: 500px;
     margin: 0px 12px;
-    box-shadow: var(box-shadow);
+    box-shadow: var(--boxShadow);
 }
 
 .wsus__prtfolio_details .slick-dots {
@@ -2314,6 +2325,7 @@ footer .relative {
     width: 75%;
     font-size: 18px;
 }
+
 /*============================
     BLOG DETAILS END
 ===========================*/
@@ -2508,6 +2520,7 @@ footer .relative {
     bottom: 10px;
     opacity: 1;
 }
+
 /*============================
     SHOP END
 ===========================*/
@@ -2654,7 +2667,8 @@ footer .relative {
     text-transform: capitalize;
 }
 
-.features .table tr th td {
+.features .table tr th,
+.features .table tr td {
     text-transform: capitalize;
 }
 
@@ -2721,6 +2735,7 @@ footer .relative {
     margin-bottom: 0;
     margin-top: 25px;
 }
+
 /*============================
     SHOP DETAILS END
 ===========================*/
@@ -3245,6 +3260,7 @@ footer .relative {
 .wsus__terms_text p {
     margin-top: 25px;
 }
+
 /*============================
    TERMS & CONDITION END
 ===========================*/
@@ -3305,6 +3321,7 @@ footer .relative {
     left: 200px;
     transform: rotate(45deg);
 }
+
 /*============================
     VIDEO GALLERY END
 ===========================*/
@@ -3431,6 +3448,7 @@ footer .relative {
 .wsus__cart_item table .total .common_btn {
     font-size: 14px;
 }
+
 /*============================
     CART VIEW END
 ===========================*/
@@ -3547,9 +3565,9 @@ footer .relative {
 }
 
 .accordion-button:not(.collapsed) {
-	box-shadow: none;
-	color: var(--primaryColor);
-	border-top: 1px solid #fff;
+    box-shadow: none;
+    color: var(--primaryColor);
+    border-top: 1px solid #fff;
 }
 
 #wsus__faq .accordion-body {
@@ -3558,17 +3576,17 @@ footer .relative {
 }
 
 .wsus__faq_text {
-	padding: 30px;
-	border-radius: 5px;
-	text-align: center;
-	background: #def0ffb0 !important;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background: #def0ffb0 !important;
 }
 
 .wsus__faq_text h3 {
-	text-transform: capitalize;
-	font-size: 35px;
-	font-weight: 600;
-	color: var(--primaryColor);
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--primaryColor);
 }
 
 .wsus__faq_text .common_btn {
@@ -3588,7 +3606,7 @@ footer .relative {
 }
 
 .wsus__faq_text .call:hover {
-	color: var(--primaryColor);
+    color: var(--primaryColor);
 }
 
 .accordion-button::after {
@@ -3614,13 +3632,13 @@ footer .relative {
 }
 
 .accordion-button {
-	padding: 15px;
-	font-size: 16px;
-	color: var(--secondaryColor);
-	background: #def0ffb0 !important;
-	text-transform: capitalize;
-	font-family: var(--paraFont);
-	font-weight: 600;
+    padding: 15px;
+    font-size: 16px;
+    color: var(--secondaryColor);
+    background: #def0ffb0 !important;
+    text-transform: capitalize;
+    font-family: var(--paraFont);
+    font-weight: 600;
 }
 
 .accordion-button:focus {
@@ -3628,8 +3646,8 @@ footer .relative {
 }
 
 .accordion-item:first-of-type .accordion-button {
-	border-radius: 0 !important;
-	border-top: 0 !important;
+    border-radius: 0 !important;
+    border-top: 0 !important;
 }
 
 .accordion-button.collapsed {
@@ -3639,6 +3657,7 @@ footer .relative {
 .accordion-item {
     border: 0;
 }
+
 /*========================
     FAQ END
 =========================*/
@@ -3649,51 +3668,52 @@ footer .relative {
 	CAREER  START
 ============================== */
 .wsus__single_career {
-	border: 1px solid #eee;
-	border-radius: 5px;
-	padding: 20px;
-	background: #f5f7fb;
-	margin-top: 25px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 20px;
+    background: #f5f7fb;
+    margin-top: 25px;
 }
 
 .wsus__single_career span {
-	text-transform: capitalize;
-	color: var(--primaryColor);
-	font-size: 14px;
+    text-transform: capitalize;
+    color: var(--primaryColor);
+    font-size: 14px;
 }
 
-.wsus__single_career span i{
-	margin-right: 10px;
+.wsus__single_career span i {
+    margin-right: 10px;
 }
 
 .wsus__single_career h2 {
-	text-transform: capitalize;
-	font-size: 30px;
-	font-weight: 900;
-	margin: 12px 0px 15px 0px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 12px 0px 15px 0px;
 }
 
 .wsus__single_career h5 {
-	text-transform: capitalize;
-	font-size: 16px;
-	color: var(--primaryColor);
-	font-family: var(--paraFont);
-	font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: var(--primaryColor);
+    font-family: var(--paraFont);
+    font-weight: 600;
 }
 
 .wsus__single_career p {
-	margin: 15px 0px 8px 0px;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
+    margin: 15px 0px 8px 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .wsus__single_career .common_btn i,
 .wsus__career_details .common_btn i,
-.wsus__career_form_single .common_btn i{
+.wsus__career_form_single .common_btn i {
     margin-left: 10px;
 }
+
 /* ==============================
 	CAREER  END
 ============================== */
@@ -3725,19 +3745,20 @@ footer .relative {
 }
 
 .wsus__career_det_text ul li::after {
-	position: absolute;
-	content: "\f14a";
-	font-family: 'Font Awesome 5 Free';
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	color: var(--primaryColor);
-	left: 0;
-	top: 1px;
-	font-size: 16px;
-	font-weight: 900;
+    position: absolute;
+    content: "\f14a";
+    font-family: 'Font Awesome 5 Free';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--primaryColor);
+    left: 0;
+    top: 1px;
+    font-size: 16px;
+    font-weight: 900;
 }
+
 /* ==============================
 	CAREER DETAILS END
 ============================== */
@@ -3765,10 +3786,11 @@ footer .relative {
     color: #0A547A;
 }
 
-.wsus__career_form_single input, 
+.wsus__career_form_single input,
 .wsus__career_form_single textarea {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
+
 /* ==============================
 	CAREER FORM  END
 ============================== */
@@ -3791,112 +3813,113 @@ footer .relative {
 }
 
 .wsus__single_events_img {
-	position: relative;
-	width: 100%;
-	height: 300px;
+    position: relative;
+    width: 100%;
+    height: 300px;
 }
 
 .wsus__single_events_img::after {
-	position: absolute;
-	content: "";
-	background: var(--primaryColor);
-	width: 150px;
-	height: 150px;
-	top: -90px;
-	left: -70px;
-	transform: rotate(51deg);
+    position: absolute;
+    content: "";
+    background: var(--primaryColor);
+    width: 150px;
+    height: 150px;
+    top: -90px;
+    left: -70px;
+    transform: rotate(51deg);
 }
 
 .wsus__single_events_img .price {
-	position: absolute;
-	content: "";
-	top: 10px;
-	left: 10px;
-	color: #fff;
-	font-weight: 900;
-	font-size: 20px;
-	font-family: var(--headingFont);
-	z-index: 1;
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: var(--headingFont);
+    z-index: 1;
 }
 
 .wsus__event_text {
-	background: #fff;
-	padding: 25px 30px 30px 30px;
+    background: #fff;
+    padding: 25px 30px 30px 30px;
 }
 
 .wsus__event_text a {
-	text-transform: capitalize;
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 10px;
-	display: block;
-	transition: all linear .3s;
-	-webkit-transition: all linear .3s ease;
-	-moz-transition: all linear .3s ease;
-	-ms-transition: all linear .3s ease;
-	-o-transition: all linear .3s ease;
-	display: -webkit-box;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-	font-family: var(--titleFont);
-	color: var(--primaryColor);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: var(--titleFont);
+    color: var(--primaryColor);
 }
 
 .wsus__event_text p {
-	text-transform: capitalize;
-	margin-top: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .wsus__event_text p span {
-	font-weight: 600;
-	width: 125px;
-	display: inline-block;
+    font-weight: 600;
+    width: 125px;
+    display: inline-block;
 }
 
 .wsus__event_text p span i {
-	width: 20px;
+    width: 20px;
 }
 
 .wsus__single_events_img .simply-countdown.simply-countdown-one {
-	display: flex;
-	background: #000000bf;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	justify-content: center;
+    display: flex;
+    background: #000000bf;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
 }
 
-.wsus__single_events_img .simply-section.simply-days-section, 
-.wsus__single_events_img .simply-section.simply-hours-section, 
-.wsus__single_events_img .simply-section.simply-minutes-section, 
+.wsus__single_events_img .simply-section.simply-days-section,
+.wsus__single_events_img .simply-section.simply-hours-section,
+.wsus__single_events_img .simply-section.simply-minutes-section,
 .wsus__single_events_img .simply-section.simply-seconds-section {
-	border-right: 1px solid #ffffff5c;
-	width: 85px;
-	padding: 10px 0px;
+    border-right: 1px solid #ffffff5c;
+    width: 85px;
+    padding: 10px 0px;
 }
 
-.wsus__single_events_img .simply-section.simply-seconds-section{
+.wsus__single_events_img .simply-section.simply-seconds-section {
     border: 0;
 }
 
 .wsus__single_events_img .simply-amount {
-	color: #fff;
-	display: block;
-	text-align: center;
-	font-weight: 700;
-	font-family: var(--headingFont);
-	font-size: 25px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--headingFont);
+    font-size: 25px;
 }
 
 .wsus__single_events_img .simply-word {
-	color: #fff;
-	text-transform: capitalize;
-	font-size: 12px;
-	text-align: center;
-	display: block;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 12px;
+    text-align: center;
+    display: block;
 }
+
 /*============================
    EVENTS END
 ===========================*/
@@ -3906,32 +3929,32 @@ footer .relative {
     EVENTS SETAILS START
 ===========================*/
 .wsus__event_details_img {
-	height: 400px;
-	position: relative;
+    height: 400px;
+    position: relative;
 }
 
 .wsus__event_details_img .simply-countdown.simply-countdown-one {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	position: absolute;
-	background: var(--primaryColor);
-	left: 0;
-	bottom: -35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    background: var(--primaryColor);
+    left: 0;
+    bottom: -35px;
 }
 
-.wsus__event_details_img .simply-section.simply-days-section, 
-.wsus__event_details_img .simply-section.simply-hours-section, 
-.wsus__event_details_img .simply-section.simply-minutes-section, 
+.wsus__event_details_img .simply-section.simply-days-section,
+.wsus__event_details_img .simply-section.simply-hours-section,
+.wsus__event_details_img .simply-section.simply-minutes-section,
 .wsus__event_details_img .simply-section.simply-seconds-section {
-	text-align: center;
-	border-right: 1px solid #ffffff5c;
-	width: 85px;
-	padding: 10px 0px;
+    text-align: center;
+    border-right: 1px solid #ffffff5c;
+    width: 85px;
+    padding: 10px 0px;
 }
 
 .wsus__event_details_img .simply-amount {
-	color: #fff;
+    color: #fff;
     display: block;
     text-align: center;
     font-weight: 700;
@@ -3940,7 +3963,7 @@ footer .relative {
 }
 
 .wsus__event_details_img .simply-word {
-	color: #fff;
+    color: #fff;
     text-transform: capitalize;
     font-size: 12px;
     text-align: center;
@@ -3948,76 +3971,77 @@ footer .relative {
 }
 
 .wsus__event_details_text {
-	padding-top: 35px;
-	margin-bottom: -4px;
+    padding-top: 35px;
+    margin-bottom: -4px;
 }
 
 .wsus__event_details_text h2 {
-	text-transform: capitalize;
-	font-size: 25px;
-	font-weight: 600;
-	margin-top: 25px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
 }
 
 .wsus__event_details_text p {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .wsus__event_details_text ul li {
-	color: var(--paraColor);
-	width: 50%;
-	margin-top: 10px;
-	padding-left: 25px;
-	position: relative;
-	font-size: 16px;
+    color: var(--paraColor);
+    width: 50%;
+    margin-top: 10px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 16px;
 }
 
 .wsus__event_details_text ul li::after {
-	position: absolute;
-	content: "\f005";
-	font-family: 'Font Awesome 5 Free';
-	color: var(--primaryColor);
-	left: 0;
-	top: 4px;
-	font-size: 12px;
-	font-weight: 900;
+    position: absolute;
+    content: "\f005";
+    font-family: 'Font Awesome 5 Free';
+    color: var(--primaryColor);
+    left: 0;
+    top: 4px;
+    font-size: 12px;
+    font-weight: 900;
 }
 
 .wsus__event_details .gallery_item {
     width: 100%;
-	height: 180px;
+    height: 180px;
     margin: 0;
 }
 
 .event_gallery {
-	padding: 0px 12px;
-	margin-top: 30px;
+    padding: 0px 12px;
+    margin-top: 30px;
 }
 
 .event_sidebar p {
-	text-transform: capitalize;
-	margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
 
 .event_sidebar p span {
-	display: inline-block;
-	width: 90px;
-	font-weight: 600;
+    display: inline-block;
+    width: 90px;
+    font-weight: 600;
 }
 
-.event_sidebar p span i{
+.event_sidebar p span i {
     margin-right: 5px;
     color: var(--primaryColor);
 }
 
 .event_sidebar a {
-	margin-top: 5px;
+    margin-top: 5px;
 }
 
 .event_sidebar iframe {
-	width: 100%;
-	border: 1px solid #ddd !important;
+    width: 100%;
+    border: 1px solid #ddd !important;
 }
+
 /*============================
     EVENTS SETAILS END
 ===========================*/
@@ -4026,90 +4050,91 @@ footer .relative {
 /*============================
    COMING SOON START
 ===========================*/
-.wsus__coming_soon{
+.wsus__coming_soon {
     width: 100%;
     height: 100vh;
     position: relative;
 }
 
 .wsus__coming_soon_text {
-	position: absolute;
-	width: 40%;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-51%);
-	text-align: center;
-	-webkit-transform: translate(-50%,-51%);
-	-moz-transform: translate(-50%,-51%);
-	-ms-transform: translate(-50%,-51%);
-	-o-transform: translate(-50%,-51%);
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    text-align: center;
+    -webkit-transform: translate(-50%, -51%);
+    -moz-transform: translate(-50%, -51%);
+    -ms-transform: translate(-50%, -51%);
+    -o-transform: translate(-50%, -51%);
 }
 
 .wsus__coming_soon_text h1 {
-	font-size: 50px;
-	font-family: var(--headingFont);
-	font-weight: 700;
-	color: var(--primaryColor);
-	text-transform: capitalize;
+    font-size: 50px;
+    font-family: var(--headingFont);
+    font-weight: 700;
+    color: var(--primaryColor);
+    text-transform: capitalize;
 }
 
 .wsus__coming_soon_text .simply-countdown.simply-countdown-one {
-	display: flex;
-	justify-content: center;
-	align-items: baseline;
-	margin: 10px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px 0px 20px 0px;
 }
 
 .wsus__coming_soon_text .simply-section.simply-days-section,
 .wsus__coming_soon_text .simply-section.simply-hours-section,
 .wsus__coming_soon_text .simply-section.simply-minutes-section,
 .wsus__coming_soon_text .simply-section.simply-seconds-section {
-	margin: 0px 10px;
+    margin: 0px 10px;
 }
 
 .wsus__coming_soon_text .simply-amount {
-	font-size: 35px;
-	font-weight: 900;
-	font-family: var(--titleFont);
+    font-size: 35px;
+    font-weight: 900;
+    font-family: var(--titleFont);
     color: var(--secondaryColor);
 }
 
 .wsus__coming_soon_text .simply-word {
-	text-align: center;
-	margin-left: 10px;
-	display: inline-block;
-	text-transform: capitalize;
-	font-weight: 600;
+    text-align: center;
+    margin-left: 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
 .wsus__coming_soon_text form {
-	position: relative;
-	border: 1px solid var(--borderColor);
-	overflow: hidden;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	margin-bottom: 25px;
+    position: relative;
+    border: 1px solid var(--borderColor);
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 25px;
 }
 
 .wsus__coming_soon_text button {
-	position: absolute;
-	top: 0;
-	right: 0;
-	border-radius: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px;
 }
 
 .wsus__coming_soon_text form input {
-	border: none;
+    border: none;
     padding: 15px 15px;
 }
 
 .wsus__coming_soon_text p {
-	width: 70%;
-	margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
 }
+
 /*============================
    COMING SOON END
 ===========================*/
@@ -4119,57 +4144,58 @@ footer .relative {
     APPOINTMENT START
 ===========================*/
 .wsus__appointment .wsus__login_text {
-	background-position: center !important;
-	background-size: cover !important;
-	background-repeat: no-repeat !important;
-	padding: 0;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 0;
 }
 
 .wsus__appointment .wsus__login_text::after,
 .wsus__appointment .wsus__login_text::before {
-	display: none;
+    display: none;
 }
 
 .wsus__appointment .wsus__login_text_overlay {
-	background: #0000008c;
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    background: #0000008c;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .appintment_form .wsus__login_single {
-	display: block;
+    display: block;
 }
 
 .appintment_form label {
-	display: block;
-	text-transform: capitalize;
-	margin-bottom: 5px;
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 5px;
 }
 
 .appintment_form select {
-	width: 100%;
-	padding: 10px 15px;
-	color: var(--paraColor);
-	font-size: 16px;
-	outline: none;
-	resize: none;
-	border-radius: 3px;
-	border: 1px solid var(--borderColor);
-	background: #fff;
-	text-transform: capitalize;
+    width: 100%;
+    padding: 10px 15px;
+    color: var(--paraColor);
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    border-radius: 3px;
+    border: 1px solid var(--borderColor);
+    background: #fff;
+    text-transform: capitalize;
 }
 
 .appintment_form input {
-	padding: 10px 15px;
+    padding: 10px 15px;
 }
 
-.appintment_form .date input{
+.appintment_form .date input {
     text-transform: uppercase;
 }
+
 /*============================
     APPOINTMENT END
 ===========================*/
@@ -4179,110 +4205,110 @@ footer .relative {
     DONATION START
 ===========================*/
 .wsus__donation_img {
-	height: 500px;
-	border-radius: 10px;
-	overflow: hidden;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .wsus__donation_text {
-	background: #fff;
-	padding: 30px;
-	box-shadow: var(--boxShadow);
-	width: 90%;
-	margin-left: 5%;
-	margin-top: -50px;
-	position: relative;
-	border-radius: 10px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: var(--boxShadow);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -50px;
+    position: relative;
+    border-radius: 10px;
 }
 
 .wsus__donation_text h2 {
-	text-transform: capitalize;
-	font-size: 35px;
-	font-weight: 600;
-	margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
 }
 
 .wsus__donate_progress {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .wsus__donate_progress .progress_bar label {
-	display: block;
-	width: 100%;
-	color: var(--paraColor);
-	text-transform: capitalize;
-	margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    color: var(--paraColor);
+    text-transform: capitalize;
+    margin-bottom: 10px;
 }
 
 .wsus__donate_progress .progress_bar label span {
-	color: var(--primaryColor);
+    color: var(--primaryColor);
 }
 
 .wsus__donate_progress .progress_bar {
-	width: 60%;
+    width: 60%;
 }
 
 .wsus__donate_progress .progress {
-	height: 15px;
-	border-radius: 30px;
+    height: 15px;
+    border-radius: 30px;
 }
 
 .wsus__donate_progress .progress .progress-bar {
-	background: var(--primaryColor);
+    background: var(--primaryColor);
 }
 
 .wsus__donation_details {
-	margin-top: 70px;
+    margin-top: 70px;
 }
 
 .wsus__donation_details p {
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 .wsus__donation_small_text h4 {
-	text-transform: capitalize;
-	color: var(--primaryColor);
-	margin-top: 20px;
+    text-transform: capitalize;
+    color: var(--primaryColor);
+    margin-top: 20px;
 }
 
 .wsus__donation_small_img {
-	margin-top: 25px;
-	height: 455px;
-	border-radius: 10px;
-	overflow: hidden;
+    margin-top: 25px;
+    height: 455px;
+    border-radius: 10px;
+    overflow: hidden;
     position: relative;
 }
 
 .wsus__donation_small_img p {
-	position: absolute;
-	bottom: 30px;
-	left: 0;
-	width: 100%;
-	margin: 0;
-	text-align: center;
-	text-transform: capitalize;
-	font-size: 22px;
-	font-weight: 600;
-	font-family: var(--headingFont);
-	color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--headingFont);
+    color: #fff;
 }
 
 .wsus__donation_small_img p span {
-	width: 80px;
-	height: 80px;
-	display: inline-block;
-	background: #fff;
-	text-align: center;
-	line-height: 80px;
-	border-radius: 50%;
-	font-size: 25px;
-	color: var(--primaryColor);
-	margin-right: 20px;
-	position: relative;
-	z-index: 1;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: var(--primaryColor);
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .wsus__donation_small_img p span::after {
@@ -4311,8 +4337,9 @@ footer .relative {
 }
 
 .sidebar_services .gallery_item {
-	height: 100px;
+    height: 100px;
 }
+
 /*============================
     DONATION END
 ===========================*/
