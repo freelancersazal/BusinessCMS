@@ -18,7 +18,11 @@ $(function () {
 
     //*==========SEARCH==========  
     $(".wsus__menu_search").click(function(){
-        $(".wsus__search_form").toggleClass("show_form");
+        $(".wsus__search_form").addClass("show_form");
+    });
+
+    $(".close_search").click(function(){
+        $(".wsus__search_form").removeClass("show_form");
     });
 
 
@@ -133,7 +137,7 @@ $(function () {
     $('.testi_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,
