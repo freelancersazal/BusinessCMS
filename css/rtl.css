@@ -110,12 +110,7 @@
 .wsus__services_title span {
 	right: auto;
 	left: 0;
-	border-bottom-right-radius: 0px;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-left: 0;
-    border-right: 1px solid #fff;
+	transform: rotateY(180deg);
 }
 
 .wsus__services_title a {
@@ -459,12 +454,157 @@
 	margin-right: auto;
 }
 
+.wsus__login_text::before {
+	left: auto;
+	right: -60px;
+}
+
+.wsus__login_text::after {
+	left: auto;
+	right: 15px;
+}
+
+.wsus__forget .form-check input {
+	float: right;
+}
+
+.wsus__forget .form-check label {
+	margin-right: 25px;
+}
+
+.wsus__login_single input {
+	padding-left: 15px;
+	padding-right: 70px;
+}
+
+.login_form ul li a {
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+.portfolio_sidebar p {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.portfolio_sidebar ul li a {
+	margin: 0px 0px 0px 10px;
+}
+
+.sidebar_services ul li a {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+.sidebar_services ul li a::after {
+	left: auto;
+	right: 0;
+}
+
+.sidebar_services ul li a:hover {
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.sidebar_call h4 span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.wsus__services_det_text ul li {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.wsus__services_det_text ul li::after {
+	left: auto;
+	right: 0;
+	transform: rotateY(180deg);
+}
+
+.wsus__product_details_area .cart_btn li a {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.wsus__pro_share span {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.reviews h5 span i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.reviews .wsus__blog_comment_text {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.nice-select::after {
+	right: auto;
+	left: 12px;
+}
+
+.wsus__submit_review span.current {
+	padding-left: 0;
+	padding-right: 30px;
+	display: block;
+}
+
+.wsus__submit_review span.current::after {
+	left: auto;
+	top: 0px;
+	right: 0;
+}
+
+.features .table tr th {
+	border-right: 0;
+	border-left: 1px solid #ddd;
+}
+
+.wsus__shop_sidebar_search button {
+	right: auto;
+	left: 0;
+}
+
+.wsus__shop_rating .form-check input{
+	float: right;
+}
+
+.wsus__shop_rating .form-check label {
+	margin-right: 25px;
+}
+
+.wsus__team_det_text_center {
+	left: auto;
+	right: 50px;
+}
+
+.wsus__team_details_text ul li a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.wsus__team_about ul li {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+.wsus__team_about ul li::after {
+	left: auto;
+	right: 0;
+	transform: rotateY(180deg);
+}
+
+.wsus__team_details  .rtl_team_contact {
+	margin-left: 0 !important;
+	margin-right: auto;
+}
 
 
 
-
-/*  page start */
-/*  page end */
 
 
 

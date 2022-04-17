@@ -367,7 +367,7 @@ textarea::placeholder {
     position: fixed !important;
     left: 0px;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
     animation: menu_animate 1s ease-in-out;
     -webkit-animation: menu_animate 1s ease-in-out;
 }
@@ -1940,10 +1940,6 @@ footer .relative {
     -o-transition: all linear .3s ease;
 }
 
-.sidebar_services ul li:last-child a {
-    margin: 0;
-}
-
 .sidebar_services ul li a::after {
     position: absolute;
     content: "";
@@ -2640,19 +2636,19 @@ footer .relative {
 }
 
 .wsus__pro_share ul li a {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    margin: 0px 5px;
-    color: var(--borderColor);
-    border: 1px solid var(--borderColor);
-    border-radius: 2px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s ease;
-    -moz-transition: all linear .3s ease;
-    -ms-transition: all linear .3s ease;
-    -o-transition: all linear .3s ease;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0px 5px;
+	color: var(--secondaryColor);
+	border: 1px solid var(--borderColor);
+	border-radius: 2px;
+	transition: all linear .3s;
+	-webkit-transition: all linear .3s ease;
+	-moz-transition: all linear .3s ease;
+	-ms-transition: all linear .3s ease;
+	-o-transition: all linear .3s ease;
 }
 
 .wsus__pro_share ul li a:hover {
@@ -3036,10 +3032,9 @@ footer .relative {
 }
 
 .wsus__login_area h3 {
-    text-transform: capitalize;
-    font-size: 30px;
-    margin-bottom: 40px;
-    text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	margin-bottom: 40px;
 }
 
 .wsus__login_text {
@@ -3624,15 +3619,16 @@ footer .relative {
 }
 
 .wsus__faq_text .call {
-    display: block;
-    font-size: 27px;
-    font-weight: 600;
-    text-transform: capitalize;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s ease;
-    -moz-transition: all linear 0.3s ease;
-    -ms-transition: all linear 0.3s ease;
-    -o-transition: all linear 0.3s ease;
+	display: block;
+	font-size: 27px;
+	font-weight: 600;
+	text-transform: capitalize;
+	transition: all linear 0.3s;
+	-webkit-transition: all linear 0.3s ease;
+	-moz-transition: all linear 0.3s ease;
+	-ms-transition: all linear 0.3s ease;
+	-o-transition: all linear 0.3s ease;
+	text-align: center;
 }
 
 .wsus__faq_text .call:hover {
