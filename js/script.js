@@ -137,7 +137,7 @@ $(function () {
     $('.testi_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,
@@ -148,19 +148,19 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -245,5 +245,22 @@ $(function () {
             }   
         ]
     }); 
+
+    //*==========SCROLL BUTTON==========  
+    $('.wsus__scroll_btn').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 500);
+    });
+
+    $(window).on('scroll', function () {
+        var scrolling = $(this).scrollTop();
+
+        if (scrolling > 300) {
+            $('.wsus__scroll_btn').fadeIn();
+        } else {
+            $('.wsus__scroll_btn').fadeOut();
+        }
+    });
 
 });

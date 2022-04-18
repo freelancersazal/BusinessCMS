@@ -447,6 +447,10 @@ textarea::placeholder {
     align-items: center;
 }
 
+.offcanvas {
+	z-index: 9999;
+}
+
 .wsus__mini_cart .offcanvas-header {
     border-bottom: 1px solid var(--borderColor);
 }
@@ -2899,7 +2903,7 @@ footer .relative {
     position: absolute;
     content: "";
     background: #ffc982;
-    width: 300px;
+    width: 299px;
     height: 91px;
     top: 37px;
     left: -46px;
@@ -2961,6 +2965,10 @@ footer .relative {
 	display: block;
 	color: var(--primaryColor);
 	text-align: center;
+}
+
+.wsus__testimonial {
+	margin-bottom: -5px;
 }
 /*============================
     ABOUT PAGE END
@@ -3427,20 +3435,21 @@ footer .relative {
 }
 
 .wsus__cart_item table tr td {
-    padding: 0;
+	padding: 0px 15px;
     border-bottom: 1px solid #6ea2c23d;
 }
 
-.wsus__cart_item table tr th,
+.wsus__cart_item table tr th, 
 .wsus__cart_item table tr td {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .wsus__cart_item table .images {
     width: 10%;
+    padding: 0;
 }
 
 .wsus__cart_item table .details {
@@ -3622,7 +3631,7 @@ footer .relative {
 .wsus__pay_details p span {
     font-weight: 600;
     display: inline-block;
-    width: 25%;
+    width: 30%;
 }
 
 /*============================
@@ -4150,7 +4159,7 @@ footer .relative {
 }
 
 .wsus__coming_soon_text h1 {
-    font-size: 50px;
+    font-size: 48px;
     font-family: var(--headingFont);
     font-weight: 700;
     color: var(--primaryColor);
@@ -4276,6 +4285,9 @@ footer .relative {
     text-transform: uppercase;
 }
 
+.wsus__appointment {
+	margin-bottom: -3px;
+}
 /*============================
     APPOINTMENT END
 ===========================*/
@@ -4425,6 +4437,40 @@ footer .relative {
     DONATION END
 ===========================*/
 
-.offcanvas {
-	z-index: 9999;
+
+
+/*======================
+SCROLL BUTTON START
+========================*/
+.wsus__scroll_btn {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	right: 25px;
+	bottom: 10px;
+	font-size: 16px;
+	position: fixed;
+	cursor: pointer;
+	z-index: 99;
+	display: none;
+	background: var(--primaryColor);
+	border-radius: 50%;
+	animation: move linear 0.8s infinite alternate;
+	transition: all linear 0.3s;
+	-webkit-transition: all linear 0.3s ease;
+	-moz-transition: all linear 0.3s ease;
+	-ms-transition: all linear 0.3s ease;
+	-o-transition: all linear 0.3s ease;
 }
+  
+  .wsus__scroll_btn:hover {
+    color: #fff;
+    background: #d4770d;
+  }
+  /*======================
+  SCROLL BUTTON  END
+  ========================*/
+  
+

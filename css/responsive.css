@@ -7,7 +7,7 @@
 
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-    
+    /* home page start */
     .wsus__banner_text h1 {
         font-size: 55px;
     }  
@@ -49,7 +49,63 @@
     .footer_img a {
         height: 65px;
     }
+    /* home page end */
 
+
+
+
+    /* 404 start */
+    .wsus__404_text h1 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text {
+        width: 100%;
+    }
+    /* 404 end */
+
+    
+    /* about start */
+    .wsus__testimonial_single::after {
+        width: 269px;
+    }
+    /* about end */
+
+
+    /* blog details start */
+    .wsus__blog_comment_text {
+        width: 88%;
+    }
+
+    .wsus__comment_replay .wsus__blog_comment_text {
+        width: 86%;
+    }
+
+    .recent_blogs a {
+        width: 68%;
+    }
+
+    .wsus__single_blog_img {
+        height: 210px;
+    }
+    /* blog details end */
+    
+
+
+    /* career details start */
+    .wsus__single_career h2 {
+        font-size: 25px;
+    }
+    /* career details end */
+
+
+    .wsus__pay_details p span {
+        width: 35%;
+    }
+
+    .wsus__coming_soon_text {
+        width: 50%;
+    }
     
 }
 
@@ -96,10 +152,110 @@
     .wsus__success_img {
         padding: 0px 10px;
     }
-
     /* home page end */
- 
+
+
+
+    /* 404 start */
+    .wsus__404_text h1 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text {
+        width: 100%;
+    }
+    /* 404 end */
+    
+
+
+    /* about start */
+    .wsus__about_video_overlay {
+        height: 350px;
+    }
+
+    .wsus__testimonial_single::after {
+        width: 319px;
+    }
+
+    .wsus__testimonial_single::before {
+        top: -360px;
+    }
+    /* about end */
+
+
+    /* appointment start */
+    .wsus__login_area::after {
+        top: -20px;
+        right: -20px;
+    }
+    /* appointment end */
+
+
+    /* blog details start */
+    .wsus__blog_comment_text {
+        width: 86%;
+    }
+
+    .wsus__comment_replay .wsus__blog_comment_text {
+        width: 84%;
+    }
+
+    .recent_blogs a {
+        width: 64%;
+    }
+    /* blog details end */
+
+
+    /* career details start */
+    .wsus__single_career h2 {
+        font-size: 25px;
+    }
+    /* career details end */
+
+
+
+   /* cart view start */
+   .wsus__cart_item table .images {
+        min-width: 100px;
+    }
+
+    .wsus__cart_item table .details {
+        min-width: 250px;
+    }
+
+    .wsus__cart_item table .quentity {
+        min-width: 190px;
+    }
+
+    .wsus__cart_item table .price, 
+    .wsus__cart_item table .total {
+        min-width: 120px;
+    }
+
+    .wsus__cart_item table .delete {
+        min-width: 110px;
+    }
+    /* cart view end */
+
+
+    .wsus__pay_details p span {
+        width: 40%;
+    }
+
   
+    /* comming soon start */
+    .wsus__coming_soon_text {
+        width: 60%;
+    }
+    /* comming soon end */
+
+
+
+    .wsus__contact_adress {
+        margin-left: -130px;
+    }
+
+
 }
 
 
@@ -293,9 +449,210 @@
     .wsus__copyright.mt_95.xs_mt_15 {
         margin-top: 40px !important;
     }
+
+    .wsus__blog.md_mar {
+        margin-bottom: -11px;
+    }
     /* home page end */
- 
+
+
+    /* 404 start */
+    .wsus__404_text h1 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text {
+        width: 100%;
+    }
+    /* 404 end */
+
+
+    /* about page start */
+    .wsus__about_video_overlay {
+        height: 300px;
+    }
+
+    .wsus__testimonial_single::after {
+        width: 259px;
+    }
+
+    .wsus__testimonial {
+        margin-bottom: -15px;
+    }
+    /* about page end */
+
+
+    /* appintment start */
+    .wsus__login_area::after {
+        top: -20px;
+        right: -20px;
+    }
+
+    .login_form {
+        padding: 20px;
+    }
+
+    .login_form h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__breadcrumb h1 {
+        font-size: 40px;
+    }
+
+    .wsus__appointment {
+        margin-bottom: -13px;
+    }
+    /* appintment end */
+    
+
+
+    /* blog details start */
+    .wsus__blog_det_img {
+        height: 350px;
+    }
+
+    .wsus__blog_det_img .date span {
+        font-size: 20px;
+    }
+
+    .wsus__blog_det_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__blog_comment_text {
+        width: 87%;
+    }
+
+    .wsus__comment_replay .wsus__blog_comment_text {
+        width: 87%;
+    }
+
+    .wsus__comment_replay {
+        padding-left: 30px;
+    }
+
+    .wsus__single_comment_img {
+        margin-bottom: 10px;
+    }
+
+    .wsus__blog_comment h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_comment_replay h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_comment_replay {
+        margin-bottom: 50px;
+    }
+
+    .recent_blogs a {
+        width: 67%;
+    }
+
+    .sidebar_services.md_mb_0 {
+        margin-bottom: 0;
+    }
+
+    .wsus__blog_details {
+        margin-bottom: -15px;
+    }
+
+    .wsus__single_blog_img {
+        height: 210px;
+    }
+    /* blog details end */
+
+
+
+    /* career details start */
+    .wsus__career_details {
+        margin-bottom: -10px;
+    }
+
+    .wsus__career {
+        margin-bottom: -12px;
+    }
+    /* career details end */
   
+
+   /* cart view start */
+   .wsus__cart_item table .images {
+        min-width: 100px;
+    }
+
+    .wsus__cart_item table .details {
+        min-width: 250px;
+    }
+
+    .wsus__cart_item table .quentity {
+        min-width: 190px;
+    }
+
+    .wsus__cart_item table .price, 
+    .wsus__cart_item table .total {
+        min-width: 120px;
+    }
+
+    .wsus__cart_item table .delete {
+        min-width: 110px;
+    }
+
+    .wsus__cart_view {
+        margin-bottom: -10px;
+    }
+    /* cart view end */
+
+
+    /* checkout start */
+    .wsus__pay_method #pills-tab li {
+        width: 33.33%;
+    }
+    
+    .wsus__pay_address {
+        margin-bottom: 25px;
+    }
+
+    .wsus__checkout {
+        margin-bottom: -10px;
+    }
+    /* checkout end */
+
+    /* comming soon start */
+    .wsus__coming_soon_text {
+        width: 75%;
+    }
+    /* comming soon end */
+
+
+
+    /* contact start */
+    .wsus__contact_area {
+        padding: 0;
+    }
+
+    .wsus__contact_adress {
+        margin-left: 0;
+    }
+
+    .wsus__contact_adress ul {
+        position: static;
+    }
+
+    .wsus__contact_message {
+        padding: 30px;
+    }
+
+    .con_map {
+        height: 350px;
+    }
+    /* contact end */
+    
+
+
 }
 
 
@@ -477,7 +834,7 @@
     }
 
     .subs_form button {
-        padding: 8px 13px;
+        padding: 10px 13px;
         font-size: 14px;
     }
 
@@ -504,6 +861,214 @@
     }
     /* home page end */
  
+
+    /* 404 start */
+    .wsus__404_text h1 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text {
+        width: 100%;
+    }
+    /* 404 end */
+
+
+    /* about start */
+    .wsus__about_video_overlay {
+        height: 250px;
+    }
+
+    .wsus__testimonial_single::after {
+        width: 350px;
+    }
+
+    .wsus__testimonial_single::before {
+        top: -370px;
+    }
+
+    .wsus__testimonial {
+        margin-bottom: 0px;
+    }
+    /* about end */
+
+
+    /* appintment start */
+    .wsus__login_area::after {
+        top: -20px;
+        right: -20px;
+    }
+
+    .login_form {
+        padding: 20px;
+    }
+
+    .login_form h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__breadcrumb h1 {
+        font-size: 25px;
+    }
+
+    .wsus__breadcrumb ul li a {
+        font-weight: 600;
+        margin-right: 15px;
+        padding-right: 16px;
+        font-size: 14px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 60px 0px 67px 0px;
+    }
+    /* appintment end */
+
+
+    /* blog details start */
+    .wsus__blog_det_img {
+        height: 250px;
+    }
+
+    .wsus__blog_det_img .date {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .wsus__blog_det_img .date span {
+        font-size: 20px;
+    }
+
+    .wsus__blog_det_img .bloger {
+        bottom: auto;
+        left: 10px;
+        top: 10px;
+    }
+
+    .wsus__blog_det_img .bloger span {
+        margin-bottom: 5px;
+    }
+
+    .wsus__blog_det_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__blog_comment_text {
+        width: 84%;
+    }
+
+    .wsus__comment_replay .wsus__blog_comment_text {
+        width: 83%;
+    }
+
+    .wsus__comment_replay {
+        padding-left: 30px;
+    }
+
+    .wsus__single_comment_img {
+        margin-bottom: 10px;
+    }
+
+    .wsus__blog_comment h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_comment_replay h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_comment_replay {
+        margin-bottom: 50px;
+    }
+
+    .recent_blogs a {
+        width: 80%;
+    }
+    /* blog details end */
+
+
+
+    /* career details start */
+    .wsus__career_det_text h3 {
+        font-size: 20px;
+    }
+
+    .wsus__single_career h2 {
+        font-size: 30px;
+    }
+    /* career details end */
+
+
+
+   /* cart view start */
+   .wsus__cart_item table .images {
+        min-width: 100px;
+    }
+
+    .wsus__cart_item table .details {
+        min-width: 250px;
+    }
+
+    .wsus__cart_item table .quentity {
+        min-width: 190px;
+    }
+
+    .wsus__cart_item table .price, 
+    .wsus__cart_item table .total {
+        min-width: 120px;
+    }
+
+    .wsus__cart_item table .delete {
+        min-width: 110px;
+    }
+    /* cart view end */
+
+
+    
+    /* checkout start */
+    .wsus__pay_method #pills-tab li {
+        width: 50%;
+    }
+
+    .wsus__pay_address {
+        margin-bottom: 25px;
+    }
+
+    .wsus__pay_details p span {
+        width: 35%;
+    }
+    /* checkout end */
+
+
+    /* comming soon start */
+    .wsus__coming_soon_text {
+        width: 95%;
+    }
+    /* comming soon end */
+
+
+
+    /* contact start */
+    .wsus__contact_area {
+        padding: 0;
+    }
+
+    .wsus__contact_adress {
+        margin-left: 0;
+    }
+
+    .wsus__contact_adress ul {
+        position: static;
+    }
+
+    .wsus__contact_message {
+        padding: 30px;
+    }
+
+    .con_map {
+        height: 350px;
+    }
+    /* contact end */
+
   
 }
 
@@ -536,7 +1101,7 @@
         margin-top: 1px;
         padding: 15px 0px 35px 0px;
         border-bottom: 1px solid var(--primaryColor);
-        z-index: 9;
+        z-index: 99;
     }
 
     .main_menu .nav-item .nav-link {
@@ -602,7 +1167,7 @@
     }
 
     .wsus__banner {
-        padding: 75px 0px;
+        padding: 70px 0px 75px 0px;
     }
 
     .wsus__about_img {
@@ -731,11 +1296,269 @@
     .wsus__footer_content h3 {
         margin-bottom: 15px;
     }
-
-
     /* home page end */
  
 
+
+    /* 404 start */
+    .wsus__404_text h1 {
+        font-size: 100px;
+    }
+
+    .wsus__404_text {
+        width: 100%;
+    }
+    /* 404 end */
+
+
+
+    /* about start */
+    .wsus__about_video_overlay {
+        height: 250px;
+    }
+
+    .wsus__testimonial_single::after {
+        left: -107px;
+    }
+
+    .wsus__testimonial {
+        margin-bottom: 0px;
+    }
+    /* about end */
+
+
+
+    /* appintment start */
+    .wsus__login_area::after {
+        top: -10px;
+        right: -10px;
+    }
+
+    .wsus__appointment .wsus__login_text_overlay {
+        padding: 20px;
+    }
+
+    .login_form {
+        padding: 20px;
+    }
+
+    .login_form h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__breadcrumb h1 {
+        font-size: 25px;
+    }
+
+    .wsus__breadcrumb ul li a {
+        font-weight: 600;
+        margin-right: 15px;
+        padding-right: 16px;
+        font-size: 14px;
+    }
+
+    .wsus__breadcrumb_overlay {
+        padding: 60px 0px 67px 0px;
+    }
+    /* appintment end */
+
+
+
+    /* blog details start */
+    .wsus__blog_det_img {
+        height: 250px;
+    }
+
+    .wsus__blog_det_img .date {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .wsus__blog_det_img .date span {
+        font-size: 20px;
+    }
+
+    .wsus__blog_det_img .bloger {
+        bottom: auto;
+        left: 10px;
+        top: 10px;
+    }
+
+    .wsus__blog_det_img .bloger span {
+        margin-bottom: 5px;
+    }
+
+    .wsus__blog_det_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__blog_det_share ul li a {
+        margin-left: 10px;
+    }
+
+    .wsus__blog_comment_text {
+        width: 100%;
+    }
+
+    .wsus__comment_replay .wsus__blog_comment_text {
+        width: 100%;
+    }
+
+    .wsus__comment_replay {
+        padding-left: 30px;
+    }
+
+    .wsus__single_comment_img {
+        margin-bottom: 10px;
+    }
+
+    .wsus__blog_comment h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_comment_replay h3 {
+        font-size: 20px;
+    }
+
+    .wsus__blog_comment_replay {
+        margin-bottom: 50px;
+    }
+
+    .recent_blogs a {
+        width: 65%;
+    }
+    /* blog details end */
+
+
+
+    /* career details start */
+    .wsus__career_det_text h3 {
+        font-size: 20px;
+    }
+
+    .wsus__single_career h2 {
+        font-size: 20px;
+    }
+
+    .wsus__single_career h5 {
+        font-size: 13px;
+    }
+    /* career details end */
+
+
+
+    /* cart view start */
+    .wsus__cart_item table .images {
+        min-width: 100px;
+    }
+
+    .wsus__cart_item table .details {
+        min-width: 250px;
+    }
+
+    .wsus__cart_item table .quentity {
+        min-width: 190px;
+    }
+
+    .wsus__cart_item table .price, 
+    .wsus__cart_item table .total {
+        min-width: 120px;
+    }
+
+    .wsus__cart_item table .delete {
+        min-width: 110px;
+    }
+    /* cart view end */
+
+
+
+    /* checkout start */
+    .wsus__pay_method #pills-tab li {
+        width: 50%;
+    }
+
+    .wsus__pay_method #pills-tab li button {
+        font-size: 13px;
+    }
+
+    .wsus__checkout h4 {
+        font-size: 20px;
+    }
+
+    .wsus__pay_address {
+        margin-bottom: 25px;
+    }
+
+    .wsus__pay_details p span {
+        display: block;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    /* checkout end */
+
+
+
+    /* comming soon start */
+    .wsus__coming_soon_text {
+        width: 95%;
+    }
+
+    .wsus__coming_soon_text h1 {
+        font-size: 35px;
+    }
+
+    .wsus__coming_soon_text p {
+        width: 100%;
+    }
+
+    .wsus__coming_soon_text .simply-amount {
+        font-size: 25px;
+    }
+
+    .wsus__coming_soon_text .simply-word {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    /* comming soon end */
+
+
+
+    /* contact start */
+    .wsus__contact_area {
+        padding: 0;
+    }
+
+    .wsus__contact_adress {
+        margin-left: 0;
+    }
+
+    .wsus__contact_adress ul {
+        position: static;
+    }
+
+    .wsus__contact_message {
+        padding: 30px 15px 15px 15px;
+    }
+
+    .con_map {
+        height: 350px;
+    }
+    /* contact end */
+
+
+
+
+
+
+
+
+
+
+
+
+    /*  start */
+    /*  end */
 
 
 
