@@ -263,4 +263,19 @@ $(function () {
         }
     });
 
+
+    //*==========SEARCH==========  
+    $(".wsus__shop_filter").click(function(){
+        $(".plus").toggleClass("show_icon");
+    });
+
+
+    //*==========SEARCH==========  
+    $(".wsus__shop_filter").click(function(){
+        $(".wsus__shop_sidebar").toggleClass("show_sidebar");
+    });
+
+
+    
+
 });

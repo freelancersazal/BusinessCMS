@@ -1,6 +1,24 @@
 
 @media (min-width: 1400px) {
-    
+    .sidebar_services.mar_lg {
+        margin-bottom: 0;
+    }
+
+    .wsus__terms_condition,
+    .wsus__events,
+    .wsus__pricing {
+        margin-bottom: -5px;
+    }
+
+    .wsus__prtfolio_details {
+        margin-bottom: -10px;
+    }
+
+    .wsus__prtfolio_page {
+        margin-bottom: -8px;
+    }
+
+
 
 }
 
@@ -106,7 +124,60 @@
     .wsus__coming_soon_text {
         width: 50%;
     }
+
+
+    /* donation start */
+    .wsus__donation_img {
+        height: 400px;
+    }
+
+    .sidebar_services.mar_lg {
+        margin-bottom: 0;
+    }
+    /* donation end */
     
+
+    .wsus__event_details .gallery_item {
+        height: 130px;
+    }
+
+    .wsus__single_events_img {
+        height: 250px;
+    }
+
+    .wsus__prtfolio_details {
+        margin-bottom: -10px;
+    }
+
+    .wsus__prtfolio_page {
+        margin-bottom: -8px;
+    }
+
+    .wsus__login {
+        margin-bottom: -3px;
+    }
+
+    .wsus__terms_condition,
+    .wsus__pricing,
+    .wsus__events {
+        margin-bottom: -5px;
+    }
+
+    /* shop details start */
+    .wsus__pro_description {
+        margin-top: 100px !important;
+    }
+
+    .wsus__shop_text a {
+        font-size: 14px;
+    }
+
+    .wsus__shop_img {
+        height: 250px;
+    }
+    /* shop details end */
+
+
 }
 
 
@@ -250,10 +321,103 @@
     /* comming soon end */
 
 
-
     .wsus__contact_adress {
         margin-left: -130px;
     }
+
+    .wsus__breadcrumb h1 {
+        font-size: 45px;
+    }
+
+
+    /* Donation start */
+    .wsus__donation_img {
+        height: 300px;
+    }
+
+    .wsus__donation_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__donation_small_text h4 {
+        font-size: 25px;
+    }
+
+    .wsus__donation_small_img {
+        height: 300px;
+    }
+
+    .sidebar_services.mar_lg {
+        margin-bottom: 0;
+    }
+
+    .wsus__subs_text h2 {
+        font-size: 30px;
+    }
+    /* Donation end */
+
+
+    .wsus__event_details .gallery_item {
+        height: 150px;
+    }
+
+    .wsus__events {
+        margin-bottom: -5px;
+    }
+
+    .wsus__photo_gallery {
+        margin-bottom: -5px;
+    }
+
+    .wsus__prtfolio_details_img {
+        height: 400px;
+    }
+
+    .portfolio_sidebar ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+        font-size: 14px;
+    }
+
+    .wsus__prtfolio_details {
+        margin-bottom: -10px;
+    }
+
+    .wsus__prtfolio_page {
+        margin-bottom: -8px;
+    }
+
+    .wsus__terms_condition,
+    .wsus__pricing {
+        margin-bottom: -5px;
+    }
+
+    .wsus__login {
+        margin-bottom: -3px;
+    }
+
+    .wsus__services_det_img {
+        height: 300px;
+    }
+
+
+    /* shop details start */
+    .wsus__product_details_area h3 {
+        font-size: 30px;
+    }
+
+    .wsus__pro_description {
+        margin-top: 100px !important;
+    }
+    /* shop details end */
+
+
+
+
+
+
+
 
 
 }
@@ -651,6 +815,144 @@
     }
     /* contact end */
     
+    /* donation start */
+    .wsus__donation_img {
+        height: 250px;
+    }    
+
+    .wsus__donation_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__donation_text {
+        padding: 20px;
+    }
+
+    .wsus__donate_progress .progress_bar {
+        width: 70%;
+    }
+
+    .wsus__donation_small_text h4 {
+        font-size: 25px;
+    }
+
+    .wsus__donation_small_img {
+        height: 300px;
+    }
+
+    .wsus__donation_area {
+        margin-bottom: 20px;
+    }
+
+    .wsus__donation {
+        margin-bottom: -35px;
+    }
+    /* donation end */
+
+
+    /* event details start */
+    .event_det_slider {
+        margin-bottom: 22px;
+    }
+
+    .wsus__event_details {
+        margin-bottom: -10px;
+    }
+
+    .wsus__events {
+        margin-bottom: -15px;
+    }
+
+    .wsus__single_events_img {
+        height: 250px;
+    }
+    /* event details end */
+
+
+    .wsus__faq_text {
+        margin-bottom: -10px;
+    }
+
+    .wsus__photo_gallery {
+        margin-bottom: -15px;
+    }
+
+
+
+    /* portfolio details start */
+    .wsus__prtfolio_details_img {
+        height: 350px;
+    }
+
+    .wsus__prtfolio_details,
+    .wsus__prtfolio_page  {
+        margin-bottom: -18px;
+    }
+    /* portfolio details end */
+
+
+    .wsus__terms_condition,
+    .wsus__pricing {
+        margin-bottom: -15px;
+    }
+
+    .wsus__login {
+        margin-bottom: -10px;
+    }
+
+    .wsus__services_det_img {
+        height: 350px;
+    }
+
+    .wsus__services_details,
+    .wsus__services {
+        margin-bottom: -10px;
+    }
+
+    .wsus__service_det_area {
+        margin-bottom: 20px;
+    }
+
+    /* shop details start */
+    .wsus__product_details_area h3 {
+        font-size: 25px;
+    }
+
+    .wsus__product_details_area h4 {
+        font-size: 25px;
+    }
+
+    .wsus__pro_share span {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .wsus__pro_share ul li a {
+        margin: 0px 5px 0px 0px;
+    }
+
+    .wsus__product_details_area {
+        margin-bottom: 5px;
+    }
+
+    .wsus__shop_details {
+        margin-bottom: -10px;
+    }
+
+    .wsus__submit_review {
+        margin-top: 25px;
+    }
+
+    .wsus__shop_sidebar {
+        margin-bottom: 25px;
+        display: none;
+    }
+
+    .wsus__shop {
+        margin-bottom: -10px;
+    }
+    /* shop details end */
+
 
 
 }
@@ -1069,7 +1371,181 @@
     }
     /* contact end */
 
+
+    /* donation start */
+    .wsus__donation_img {
+        height: 250px;
+    }    
+
+    .wsus__donation_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__donation_text {
+        padding: 20px;
+    }
+
+    .wsus__donate_progress .progress_bar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__donation_small_text h4 {
+        font-size: 20px;
+    }
+
+    .wsus__donation_small_img {
+        height: 300px;
+    }
+
+    .wsus__donation_area {
+        margin-bottom: 20px;
+    }
+
+    .wsus__donation {
+        margin-bottom: -25px;
+    }
+    /* donation end */
+
+
+
+    /* event details start */
+    .wsus__event_details_img {
+        height: 250px;
+    }
+
+    .wsus__event_details_img .simply-countdown.simply-countdown-one {
+        width: 100%;
+    }
+
+    .wsus__event_details_img .simply-section.simply-days-section, .wsus__event_details_img .simply-section.simply-hours-section, .wsus__event_details_img .simply-section.simply-minutes-section, .wsus__event_details_img .simply-section.simply-seconds-section {
+        text-align: center;
+        width: 25%;
+    }
+
+    .wsus__event_details_text ul li {
+        width: 100%;
+    }
+
+    .wsus__event_details_text {
+        margin-bottom: 20px;
+    }
+
+    .event_sidebar iframe {
+        height: 250px;
+    }
+
+    .wsus__events.mt_100.xs_mt_75 {
+        margin-bottom: -5px;
+    }
+    /* event details end */
+    
+
+
+    /* faq start */
+    .wsus__faq_text {
+        padding: 20px;
+    }
+
+    .wsus__faq_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__faq_text .call {
+        font-size: 20px;
+    }
+    /* faq end */
+
   
+
+    /* photo gallery start */
+    .wsus__single_portfolio, .gallery_item {
+        height: 225px;
+    }
+    /* photo gallery end */
+
+
+
+    /* portfolio details start */
+    .wsus__prtfolio_details_img {
+        height: 250px;
+    }
+
+    .details_heading {
+        font-size: 25px;
+    }
+
+    .portfolio_sidebar ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .wsus__prtfolio_details {
+        margin-bottom: -4px;
+    }
+    /* portfolio details end */
+
+
+    .wsus__prtfolio_page ,
+    .wsus__pricing {
+        margin-bottom: -5px;
+    }
+
+    .wsus__services_det_img {
+        height: 200px;
+    }
+
+    .wsus__service_det_area {
+        margin-bottom: 25px;
+    }
+
+    /* shop details start */
+    .wsus__product_details_area h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .wsus__pro_share {
+        margin-bottom: 5px;
+    }
+
+    .wsus__pro_description #pills-tab button {
+        margin: 0px 10px 10px 0px;
+    }
+
+    .wsus__shop_img {
+        height: 250px;
+    }
+
+    .wsus__shop_text a {
+        font-size: 14px;
+    }
+
+    .wsus__submit_review {
+        margin-top: 25px;
+    }
+
+    .wsus__submit_review {
+        margin-top: 25px;
+    }
+
+    .wsus__shop_sidebar {
+        margin-bottom: 25px;
+    }
+
+    .wsus__shop_sidebar {
+        margin-bottom: 25px;
+        display: none;
+    }
+    /* shop details end */
+
+
+
+
+
+
 }
 
 
@@ -1399,6 +1875,7 @@
 
     .wsus__blog_comment_text {
         width: 100%;
+        padding-left: 0 !important;
     }
 
     .wsus__comment_replay .wsus__blog_comment_text {
@@ -1548,6 +2025,218 @@
 
 
 
+    /* donation start */
+    .wsus__donation_img {
+        height: 250px;
+    }    
+
+    .wsus__donation_text h2 {
+        font-size: 25px;
+    }
+
+    .wsus__donation_text {
+        padding: 20px;
+    }
+
+    .wsus__donate_progress .progress_bar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__donation_small_text h4 {
+        font-size: 20px;
+    }
+
+    .wsus__donation_small_img {
+        height: 300px;
+    }
+
+    .wsus__donation_area {
+        margin-bottom: 20px;
+    }
+
+    .wsus__donation {
+        margin-bottom: -25px;
+    }
+    /* donation end */
+
+
+    /* event details start */
+    .wsus__event_details_img {
+        height: 250px;
+    }
+
+    .wsus__event_details_img .simply-countdown.simply-countdown-one {
+        width: 100%;
+    }
+
+    .wsus__event_details_img .simply-section.simply-days-section, .wsus__event_details_img .simply-section.simply-hours-section, .wsus__event_details_img .simply-section.simply-minutes-section, .wsus__event_details_img .simply-section.simply-seconds-section {
+        text-align: center;
+        width: 25%;
+    }
+
+    .wsus__event_details_text ul li {
+        width: 100%;
+    }
+
+    .wsus__event_details_text {
+        margin-bottom: 20px;
+    }
+
+    .event_sidebar iframe {
+        height: 250px;
+    }
+
+    .wsus__event_details_text h2 {
+        font-size: 20px;
+    }
+
+    .wsus__event_text a {
+        font-size: 18px;
+    }
+
+    .wsus__single_events_img {
+        height: 250px;
+    }
+
+    .wsus__events.mt_100.xs_mt_75 {
+        margin-bottom: -5px;
+    }
+    /* event details end */
+
+
+
+    /* faq start */
+    .accordion-button {
+        font-size: 14px;
+    }
+
+    .wsus__faq_text {
+        padding: 20px;
+    }
+
+    .wsus__faq_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__faq_text .call {
+        font-size: 20px;
+    }
+    /* faq end */
+
+
+
+
+    /* contact start */
+    .wsus__login_text {
+        padding: 20px;
+    }
+
+    .wsus__forget a {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .login_form h5 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .login_form ul li a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    /* contact end */
+
+
+
+    /* gallery srart */
+    .gallery_filter button {
+        margin: 1px 3px;
+    }
+
+    .wsus__photo_gallery {
+        margin-bottom: -5px;
+    }
+    /* gallery end */
+
+
+
+
+    /* portfolio details start */
+    .wsus__prtfolio_details_img {
+        height: 250px;
+    }
+
+    .details_heading {
+        font-size: 25px;
+    }
+
+    .portfolio_sidebar ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .wsus__prtfolio_details {
+        margin-bottom: -4px;
+    }
+
+    .wsus__prtfolio_page {
+        margin-bottom: -5px;
+    }
+    /* portfolio details end */
+
+
+    .wsus__services_det_img {
+        height: 200px;
+    }
+
+    .wsus__service_det_area {
+        margin-bottom: 25px;
+    }
+
+
+    /* shop details start */
+    .wsus__product_details_area h3 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .wsus__pro_share span {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wsus__pro_share ul li a {
+        margin: 0px 10px 0px 0px;
+    }
+
+    .wsus__pro_share {
+        margin-bottom: 5px;
+    }
+
+    .wsus__pro_description #pills-tab button {
+        margin: 0px 10px 10px 0px;
+    }
+
+    .wsus__submit_review {
+        margin-top: 25px;
+    }
+
+    .wsus__shop_sidebar {
+        margin-bottom: 25px;
+        display: none;
+    }
+    /* shop details end */
+
+
+
+
+
+
+
 
 
 
@@ -1563,30 +2252,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
