@@ -85,7 +85,7 @@ textarea::placeholder {
 :root {
     --primaryColor: #fb8500;
     --secondaryColor: #457b9d;
-    --paraColor: #5c5c5c;
+    --paraColor: #464646;
     --whiteColor: #fff;
     --borderColor: #ddd;
     --headingFont: 'Montserrat Alternates', sans-serif;
@@ -247,11 +247,14 @@ textarea::placeholder {
     -o-transform: scaleX(0) translateY(-50%);
 }
 
-.wsus__droapdown li a:hover {
+.wsus__droapdown li a:hover,
+.wsus__droapdown li a.active {
     color: var(--primaryColor);
     padding-left: 30px;
 }
 
+
+.wsus__droapdown li a.active::after,
 .wsus__droapdown li a:hover::after {
     transform: scale(1);
     -webkit-transform: scale(1);
@@ -287,6 +290,7 @@ textarea::placeholder {
     position: relative;
 }
 
+.menu_right li a.active,
 .menu_right li:hover a {
     background: var(--primaryColor);
     color: var(--whiteColor);
@@ -559,7 +563,6 @@ textarea::placeholder {
 ===========================*/
 
 
-
 /*============================
     BANNER START
 ===========================*/
@@ -655,7 +658,6 @@ textarea::placeholder {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-
 /*============================
     BANNER END
 ===========================*/
@@ -745,7 +747,6 @@ textarea::placeholder {
 .wsus__single_counter.purple h3 span {
     color: #a35ac5;
 }
-
 /*============================
     ABOUT END
 ===========================*/
@@ -893,7 +894,6 @@ textarea::placeholder {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 /*============================
    SEERVICES END
 ===========================*/
@@ -970,7 +970,6 @@ textarea::placeholder {
 .wsus__work_text p {
     margin-top: 32px;
 }
-
 /*============================
     WORK PROCESS END
 ===========================*/
@@ -1081,7 +1080,6 @@ textarea::placeholder {
 .wsus__prtfolios .prv_arr:hover {
     opacity: 1;
 }
-
 /*============================
     PORTFOLIOS END
 ===========================*/
@@ -1152,7 +1150,6 @@ textarea::placeholder {
     float: left;
     text-align: right;
 }
-
 /*============================
     SUCCESS END
 ===========================*/
@@ -1238,7 +1235,6 @@ textarea::placeholder {
 .wsus__single_pricing .common_btn:hover {
     background: #2b5875;
 }
-
 /*============================
     PRICING END
 ===========================*/
@@ -1369,7 +1365,6 @@ textarea::placeholder {
 .wsus__single_team:hover p {
     color: var(--whiteColor);
 }
-
 /*============================
     TEAM END
 ===========================*/
@@ -1496,7 +1491,6 @@ textarea::placeholder {
     align-items: center;
     justify-content: space-between;
 }
-
 /*========================
     TEAM DETAILS END
 =========================*/
@@ -1654,7 +1648,7 @@ textarea::placeholder {
     FOOTER START
 ===========================*/
 footer {
-    background: #383459;
+    background: #225474;
 }
 
 footer .relative {
@@ -1663,7 +1657,7 @@ footer .relative {
 
 .wsu__subscribe_area {
 	border: 2px solid #fff;
-	background: #383459;
+	background: #225474;
 	padding: 20px;
 	border-radius: 80px;
 	position: absolute;
@@ -1818,7 +1812,6 @@ footer .relative {
     margin: 0 !important;
     padding: 0 !important;
 }
-
 /*============================
     FOOTER END
 ===========================*/
@@ -2034,7 +2027,6 @@ footer .relative {
     margin-right: 10px;
     display: inline-block;
 }
-
 /*============================
     SERVICES DETAILS END
 ============================*/
@@ -2046,7 +2038,6 @@ footer .relative {
 .wsus__prtfolio_page .wsus__single_portfolio {
     margin: 0px 0px 20px 0px;
 }
-
 /*============================
     PORTFOLIO PSGE END
 ===========================*/
@@ -2133,7 +2124,6 @@ footer .relative {
     color: var(--whiteColor);
     background: var(--primaryColor);
 }
-
 /*============================
     PORTFOLIO DETAILS END
 ===========================*/
@@ -2402,7 +2392,6 @@ footer .relative {
     width: 75%;
     font-size: 18px;
 }
-
 /*============================
     BLOG DETAILS END
 ===========================*/
@@ -2608,12 +2597,13 @@ footer .relative {
 	text-transform: capitalize;
 	font-weight: 600;
 	background: var(--primaryColor);
-	border-radius: 3px;
 	color: #fff;
 	font-size: 18px;
 	line-height: 50px;
 	padding-left: 15px;
 	margin-bottom: 25px;
+	border-radius: 5px;
+	overflow: hidden;
 }
 
 .wsus__shop_filter .folter_icon {
@@ -2622,6 +2612,15 @@ footer .relative {
 	border-left: 1px solid #fff;
     position: relative;
     cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+
+.wsus__shop_filter .folter_icon:hover {
+	background: var(--secondaryColor);
 }
 
 .wsus__shop_filter .plus, 
@@ -2630,7 +2629,7 @@ footer .relative {
 	height: 50px;
 	display: block;
 	color: #fff;
-	position: absolute;
+	position: absolute; 
 	top: 0;
 	right: 0;
 	text-align: center;
@@ -2871,7 +2870,6 @@ footer .relative {
     margin-bottom: 0;
     margin-top: 25px;
 }
-
 /*============================
     SHOP DETAILS END
 ===========================*/
@@ -3124,7 +3122,6 @@ footer .relative {
     width: 100%;
     height: 100%;
 }
-
 /*============================
     CONTACT PAGE END
 ===========================*/
@@ -3236,7 +3233,6 @@ footer .relative {
     flex-wrap: wrap;
 }
 
-
 .wsus__login_single span {
     position: absolute;
     width: 50px;
@@ -3346,7 +3342,6 @@ footer .relative {
     color: var(--primaryColor);
     font-weight: 600;
 }
-
 /*============================
     LOGIN END
 ===========================*/
@@ -3387,7 +3382,6 @@ footer .relative {
     margin-bottom: 45px;
     margin-top: 10px;
 }
-
 /*============================
    404 END
 ===========================*/
@@ -3407,7 +3401,6 @@ footer .relative {
 .wsus__terms_text p {
     margin-top: 25px;
 }
-
 /*============================
    TERMS & CONDITION END
 ===========================*/
@@ -3427,7 +3420,6 @@ footer .relative {
 .gallery_filter button.active {
     background: var(--secondaryColor);
 }
-
 
 .wsus__event_details .view,
 .wsus__photo_gallery .view,
@@ -3467,7 +3459,6 @@ footer .relative {
     left: 200px;
     transform: rotate(45deg);
 }
-
 /*============================
     VIDEO GALLERY END
 ===========================*/
@@ -3595,11 +3586,9 @@ footer .relative {
 .wsus__cart_item table .total .common_btn {
     font-size: 14px;
 }
-
 /*============================
     CART VIEW END
 ===========================*/
-
 
 
 /*============================
@@ -3694,7 +3683,6 @@ footer .relative {
     display: inline-block;
     width: 30%;
 }
-
 /*============================
     CHECKOUT END
 ===========================*/
@@ -3807,11 +3795,9 @@ footer .relative {
 .accordion-item {
     border: 0;
 }
-
 /*========================
     FAQ END
 =========================*/
-
 
 
 /* ==============================
@@ -3863,11 +3849,9 @@ footer .relative {
 .wsus__career_form_single .common_btn i {
     margin-left: 10px;
 }
-
 /* ==============================
 	CAREER  END
 ============================== */
-
 
 
 /* ==============================
@@ -3908,11 +3892,9 @@ footer .relative {
     font-size: 16px;
     font-weight: 900;
 }
-
 /* ==============================
 	CAREER DETAILS END
 ============================== */
-
 
 
 /* ==============================
@@ -3940,11 +3922,9 @@ footer .relative {
 .wsus__career_form_single textarea {
     margin-bottom: 15px;
 }
-
 /* ==============================
 	CAREER FORM  END
 ============================== */
-
 
 
 /*============================
@@ -4050,7 +4030,7 @@ footer .relative {
 }
 
 .wsus__single_events_img .simply-section.simply-seconds-section {
-    border: 0;
+	border: 0 !important;
 }
 
 .wsus__single_events_img .simply-amount {
@@ -4069,7 +4049,6 @@ footer .relative {
     text-align: center;
     display: block;
 }
-
 /*============================
    EVENTS END
 ===========================*/
@@ -4191,7 +4170,6 @@ footer .relative {
     width: 100%;
     border: 1px solid #ddd !important;
 }
-
 /*============================
     EVENTS SETAILS END
 ===========================*/
@@ -4284,7 +4262,6 @@ footer .relative {
     width: 70%;
     margin: 0 auto;
 }
-
 /*============================
    COMING SOON END
 ===========================*/
@@ -4494,11 +4471,9 @@ footer .relative {
 .sidebar_services .gallery_item {
     height: 100px;
 }
-
 /*============================
     DONATION END
 ===========================*/
-
 
 
 /*======================
@@ -4534,5 +4509,3 @@ SCROLL BUTTON START
   /*======================
   SCROLL BUTTON  END
   ========================*/
-  
-

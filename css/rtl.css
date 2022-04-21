@@ -348,6 +348,7 @@
 .wsus__career_form_single .common_btn i {
 	margin-left: 0;
 	margin-right: 10px;
+	transform: rotateY(180deg);
 }
 /* career page end */
 
@@ -397,6 +398,7 @@
 
 .wsus__checkout .form-check label {
 	margin-right: 25px;
+	width: 100%;
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -477,6 +479,10 @@
 	padding-right: 70px;
 }
 
+.wsus__appointment input{
+	padding: 10px 15px;
+}
+
 .login_form ul li a {
 	margin-left: 0;
 	margin-right: 15px;
@@ -504,6 +510,11 @@
 .sidebar_services ul li a:hover {
 	padding-left: 0;
 	padding-right: 30px;
+}
+
+.blog_sidebar ul li a {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .sidebar_call h4 span {
@@ -603,8 +614,183 @@
 	margin-right: auto;
 }
 
+.wsus__404_text h4 {
+	text-align: center;
+}
+
+.wsus__404_text p {
+	text-align: center;
+}
+
+.wsus__login_text h3 {
+	text-align: center;
+}
+
+.wsus__pay_method #pills-tab li button {
+	border-right: 0;
+	border-left: 1px solid #ffffff87;
+}
+
+.wsus__donation_small_img p span {
+	margin-right: 0;
+	transform: rotateY(180deg);
+	margin-left: 20px;
+}
+
+.wsus__single_events_img .simply-section.simply-days-section, 
+.wsus__single_events_img .simply-section.simply-hours-section, 
+.wsus__single_events_img .simply-section.simply-minutes-section, 
+.wsus__single_events_img .simply-section.simply-seconds-section {
+	border-right: 0;
+	border-left: 1px solid #ffffff5c;
+}
+
+.accordion-button {
+	text-align: right;
+}
+
+.padding_r ul li a {
+	padding: 0 !important;
+}
+
+.wsus__pagination ul li:first-child a {
+	margin-left: 0;
+}
+
+.login_form {
+	padding: 50px 25px 50px 50px;
+}
+
+
+.wsus__shop_filter .folter_icon {
+	border-left: 0;
+	border-right: 1px solid #fff;
+}
+
+.wsus__shop_filter {
+	padding-left: 0;
+	padding-right: 15px;
+}
 
 
 
 
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px){
+	.wsus__testimonial_single::before {
+		top: -600px;
+	}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.99px){
+	.wsus__testimonial_single::before {
+		top: -530px;
+	}
+
+	.wsus__contact_adress {
+		margin-right: -105px;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px){
+	.text_right .wsus__success_text h4, 
+	.text_right .wsus__success_text p {
+		text-align: center;
+	}
+
+	.wsus__success_text p,
+	.wsus__success_text h4 {
+		text-align: center;
+	}
+
+	.subs_form input {
+		padding: 15px 15px 15px 95px;
+	}
+
+	.wsus__testimonial_single::before {
+		top: -600px;
+	}
+
+	.wsus__comment_replay {
+		padding-right: 40px;
+	}
+
+	.wsus__contact_adress {
+		margin-right: 0;
+	}
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.99px){
+	.text_right .wsus__success_text h4, 
+	.text_right .wsus__success_text p {
+		text-align: center;
+	}
+
+	.wsus__success_text p,
+	.wsus__success_text h4 {
+		text-align: center;
+	}
+
+	.subs_form input {
+		padding: 12px 12px 12px 95px;
+	}
+
+	.wsus__comment_replay {
+		padding-right: 30px;
+	}
+
+	.wsus__contact_adress {
+		margin-right: 0;
+	}
+
+
+
+}
+
+
+
+@media (max-width: 575.99px){
+
+	.text_right .wsus__success_text h4, 
+	.text_right .wsus__success_text p {
+		text-align: center;
+	}
+
+	.wsus__success_text p,
+	.wsus__success_text h4 {
+		text-align: center;
+	}
+
+	.subs_form input {
+		padding: 10px 10px 10px 95px !important;
+	}
+
+	.wsus__testimonial_single::before {
+		top: -690px;
+	}
+
+	.wsus__comment_replay {
+		padding-right: 30px;
+	}
+
+	.wsus__contact_adress {
+		margin-right: 0;
+	}
+
+
+}
 

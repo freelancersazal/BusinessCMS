@@ -137,7 +137,7 @@ $(function () {
     $('.testi_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,
@@ -192,7 +192,6 @@ $(function () {
 
     });  
 
-
     // =====EVENT COUNTER=====
     var d = new Date(),
         countUpDate = new Date();
@@ -246,6 +245,7 @@ $(function () {
         ]
     }); 
 
+
     //*==========SCROLL BUTTON==========  
     $('.wsus__scroll_btn').on('click', function () {
         $('html, body').animate({
@@ -274,8 +274,5 @@ $(function () {
     $(".wsus__shop_filter").click(function(){
         $(".wsus__shop_sidebar").toggleClass("show_sidebar");
     });
-
-
-    
 
 });

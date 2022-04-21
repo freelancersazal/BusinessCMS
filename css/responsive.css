@@ -10,25 +10,23 @@
         margin-bottom: -5px;
     }
 
-    .wsus__prtfolio_details {
+    .wsus__prtfolio_details, 
+    .wsus__wishlist {
         margin-bottom: -10px;
     }
 
     .wsus__prtfolio_page {
         margin-bottom: -8px;
     }
-
-
-
 }
-
 
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
     /* home page start */
     .wsus__banner_text h1 {
         font-size: 55px;
-    }  
+        margin: 35px 0px 40px 0px;
+    }
 
     .wsus__single_counter h3 {
         font-size: 40px;
@@ -70,8 +68,6 @@
     /* home page end */
 
 
-
-
     /* 404 start */
     .wsus__404_text h1 {
         font-size: 100px;
@@ -108,7 +104,6 @@
     }
     /* blog details end */
     
-
 
     /* career details start */
     .wsus__single_career h2 {
@@ -159,7 +154,9 @@
 
     .wsus__terms_condition,
     .wsus__pricing,
-    .wsus__events {
+    .wsus__events,
+    .wsus__team_details,
+    .wsus__wishlist {
         margin-bottom: -5px;
     }
 
@@ -177,9 +174,14 @@
     }
     /* shop details end */
 
+    .wsus__cart_item table .total p .common_btn {
+        padding: 15px 20px;
+    }
 
+    .sidebar_services .gallery_item {
+        height: 80px;
+    }
 }
-
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -197,6 +199,11 @@
 
     .wsus__banner_text h1 {
         font-size: 50px;
+        margin: 30px 0px 35px 0px;
+    }
+
+    .wsus__banner_icon {
+        margin-top: 40px !important;
     }
 
     .wsus__single_counter h3 {
@@ -226,7 +233,6 @@
     /* home page end */
 
 
-
     /* 404 start */
     .wsus__404_text h1 {
         font-size: 100px;
@@ -237,7 +243,6 @@
     }
     /* 404 end */
     
-
 
     /* about start */
     .wsus__about_video_overlay {
@@ -284,7 +289,6 @@
     /* career details end */
 
 
-
    /* cart view start */
    .wsus__cart_item table .images {
         min-width: 100px;
@@ -300,7 +304,12 @@
 
     .wsus__cart_item table .price, 
     .wsus__cart_item table .total {
-        min-width: 120px;
+        min-width: 140px;
+    }
+
+    .wsus__cart_item table .total p .common_btn {
+        padding: 10px 14px;
+        font-size: 13px;
     }
 
     .wsus__cart_item table .delete {
@@ -322,7 +331,7 @@
 
 
     .wsus__contact_adress {
-        margin-left: -130px;
+        margin-left: -105px;
     }
 
     .wsus__breadcrumb h1 {
@@ -401,6 +410,14 @@
         height: 300px;
     }
 
+    .wsus__video_gallery {
+        margin-bottom: -5px;
+    }
+
+    .wsus__wishlist {
+        margin-bottom: -5px;
+    }
+
 
     /* shop details start */
     .wsus__product_details_area h3 {
@@ -413,19 +430,23 @@
     /* shop details end */
 
 
+    /* team details start */
+    .wsus__team_details .wsus__contact_adress {
+        margin-left: 0;
+    }
 
+    .wsus__contact_area {
+        padding: 25px;
+    }
 
-
-
-
-
-
+    .wsus__team_details {
+        margin-bottom: -5px;
+    }
+    /* team details end */
 }
 
 
-
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
     /* home page start */
     .main_menu .top_logo {
         width: 190px;
@@ -483,7 +504,7 @@
 
     .wsus__banner_text h1 {
         font-size: 35px;
-        margin: 30px 0px 20px 0px;
+        margin: 40px 0px 40px 0px;
     }
 
     .wsus__banner_img {
@@ -653,7 +674,7 @@
     }
 
     .login_form {
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .login_form h3 {
@@ -731,7 +752,6 @@
     /* blog details end */
 
 
-
     /* career details start */
     .wsus__career_details {
         margin-bottom: -10px;
@@ -758,7 +778,12 @@
 
     .wsus__cart_item table .price, 
     .wsus__cart_item table .total {
-        min-width: 120px;
+        min-width: 140px;
+    }
+
+    .wsus__cart_item table .total p .common_btn {
+        padding: 10px 14px;
+        font-size: 13px;
     }
 
     .wsus__cart_item table .delete {
@@ -792,7 +817,6 @@
     /* comming soon end */
 
 
-
     /* contact start */
     .wsus__contact_area {
         padding: 0;
@@ -815,6 +839,7 @@
     }
     /* contact end */
     
+
     /* donation start */
     .wsus__donation_img {
         height: 250px;
@@ -878,7 +903,6 @@
     }
 
 
-
     /* portfolio details start */
     .wsus__prtfolio_details_img {
         height: 350px;
@@ -912,6 +936,15 @@
     .wsus__service_det_area {
         margin-bottom: 20px;
     }
+
+    .wsus__video_gallery {
+        margin-bottom: -13px;
+    }
+
+    .wsus__wishlist {
+        margin-bottom: -15px;
+    }
+
 
     /* shop details start */
     .wsus__product_details_area h3 {
@@ -954,11 +987,50 @@
     /* shop details end */
 
 
+    /* team details astart */
+    .wsus__team_details_top {
+        padding: 0;
+        background: none;
+        border: 1px solid #6ea2c229;
+    }
+
+    .wsus__team_det_text_center {
+        position: static;
+        transform: translateY(0);
+    }
+
+    .wsus__team_details_text h4 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .wsus__team_details_text {
+        height: auto;
+    }
+
+    .wsus__team_about h5 {
+        font-size: 20px;
+    }
+
+    .wsus__team_details .wsus__contact_adress{
+        height: 350px;
+    }
+
+    .wsus__team_about h5 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .wsus__team_details {
+        margin-bottom: -15px;
+    }
+
+    .wsus__team_page {
+        margin-bottom: -10px;
+    }
+    /* team details aend */
 
 }
-
-
-
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1020,7 +1092,7 @@
 
     .wsus__banner_text h1 {
         font-size: 30px;
-        margin: 30px 0px 20px 0px;
+        margin: 25px 0px 25px 0px;
     }
 
     .wsus__banner_img {
@@ -1201,7 +1273,7 @@
     }
 
     .login_form {
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .login_form h3 {
@@ -1288,7 +1360,6 @@
     /* blog details end */
 
 
-
     /* career details start */
     .wsus__career_det_text h3 {
         font-size: 20px;
@@ -1298,7 +1369,6 @@
         font-size: 30px;
     }
     /* career details end */
-
 
 
    /* cart view start */
@@ -1316,14 +1386,18 @@
 
     .wsus__cart_item table .price, 
     .wsus__cart_item table .total {
-        min-width: 120px;
+        min-width: 140px;
+    }
+
+    .wsus__cart_item table .total p .common_btn {
+        padding: 10px 14px;
+        font-size: 13px;
     }
 
     .wsus__cart_item table .delete {
         min-width: 110px;
     }
     /* cart view end */
-
 
     
     /* checkout start */
@@ -1346,7 +1420,6 @@
         width: 95%;
     }
     /* comming soon end */
-
 
 
     /* contact start */
@@ -1408,7 +1481,6 @@
     /* donation end */
 
 
-
     /* event details start */
     .wsus__event_details_img {
         height: 250px;
@@ -1418,7 +1490,10 @@
         width: 100%;
     }
 
-    .wsus__event_details_img .simply-section.simply-days-section, .wsus__event_details_img .simply-section.simply-hours-section, .wsus__event_details_img .simply-section.simply-minutes-section, .wsus__event_details_img .simply-section.simply-seconds-section {
+    .wsus__event_details_img .simply-section.simply-days-section, 
+    .wsus__event_details_img .simply-section.simply-hours-section, 
+    .wsus__event_details_img .simply-section.simply-minutes-section, 
+    .wsus__event_details_img .simply-section.simply-seconds-section {
         text-align: center;
         width: 25%;
     }
@@ -1441,7 +1516,6 @@
     /* event details end */
     
 
-
     /* faq start */
     .wsus__faq_text {
         padding: 20px;
@@ -1456,14 +1530,12 @@
     }
     /* faq end */
 
-  
 
     /* photo gallery start */
     .wsus__single_portfolio, .gallery_item {
         height: 225px;
     }
     /* photo gallery end */
-
 
 
     /* portfolio details start */
@@ -1500,6 +1572,12 @@
     .wsus__service_det_area {
         margin-bottom: 25px;
     }
+
+    
+    .wsus__wishlist {
+        margin-bottom: -5px;
+    }
+
 
     /* shop details start */
     .wsus__product_details_area h3 {
@@ -1542,14 +1620,43 @@
     /* shop details end */
 
 
+    /* team details start */
+    .wsus__team_det_text_center {
+        position: static;
+        transform: translateY(0);
+        padding-top: 20px;
+    }
 
+    .wsus__team_details_top {
+        padding: 0;
+    }
 
+    .wsus__team_details_img {
+        border-radius: 5px;
+        overflow: hidden;
+    }
 
+    .wsus__team_details_text h4 {
+        font-size: 30px;
+    }
 
+    .wsus__team_about h5 {
+        font-size: 20px;
+    }
+
+    .wsus__team_about ul.percent li {
+        width: 95%;
+    }
+
+    .wsus__team_details .wsus__contact_adress {
+        height: 350px;
+    }
+
+    .wsus__team_details {
+        margin-bottom: -5px;
+    }
+    /* team details end */
 }
-
-
-
 
 
 @media (max-width: 575.99px) {
@@ -1615,7 +1722,7 @@
 
     .wsus__banner_text h1 {
         font-size: 30px;
-        margin: 30px 0px 20px 0px;
+        margin: 25px 0px 25px 0px;
     }
 
     .wsus__banner_icon ul {
@@ -1754,7 +1861,7 @@
         padding: 8px 13px;
         font-size: 14px;
     }
-
+    
     .subs_form input {
         padding: 10px 95px 10px 10px;
     }
@@ -1775,7 +1882,6 @@
     /* home page end */
  
 
-
     /* 404 start */
     .wsus__404_text h1 {
         font-size: 100px;
@@ -1785,7 +1891,6 @@
         width: 100%;
     }
     /* 404 end */
-
 
 
     /* about start */
@@ -1803,7 +1908,6 @@
     /* about end */
 
 
-
     /* appintment start */
     .wsus__login_area::after {
         top: -10px;
@@ -1815,7 +1919,7 @@
     }
 
     .login_form {
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .login_form h3 {
@@ -1838,7 +1942,6 @@
         padding: 60px 0px 67px 0px;
     }
     /* appintment end */
-
 
 
     /* blog details start */
@@ -1908,7 +2011,6 @@
     /* blog details end */
 
 
-
     /* career details start */
     .wsus__career_det_text h3 {
         font-size: 20px;
@@ -1922,7 +2024,6 @@
         font-size: 13px;
     }
     /* career details end */
-
 
 
     /* cart view start */
@@ -1940,14 +2041,18 @@
 
     .wsus__cart_item table .price, 
     .wsus__cart_item table .total {
-        min-width: 120px;
+        min-width: 140px;
+    }
+
+    .wsus__cart_item table .total p .common_btn {
+        padding: 10px 14px;
+        font-size: 13px;
     }
 
     .wsus__cart_item table .delete {
         min-width: 110px;
     }
     /* cart view end */
-
 
 
     /* checkout start */
@@ -1975,7 +2080,6 @@
     /* checkout end */
 
 
-
     /* comming soon start */
     .wsus__coming_soon_text {
         width: 95%;
@@ -2000,7 +2104,6 @@
     /* comming soon end */
 
 
-
     /* contact start */
     .wsus__contact_area {
         padding: 0;
@@ -2022,7 +2125,6 @@
         height: 350px;
     }
     /* contact end */
-
 
 
     /* donation start */
@@ -2070,7 +2172,10 @@
         width: 100%;
     }
 
-    .wsus__event_details_img .simply-section.simply-days-section, .wsus__event_details_img .simply-section.simply-hours-section, .wsus__event_details_img .simply-section.simply-minutes-section, .wsus__event_details_img .simply-section.simply-seconds-section {
+    .wsus__event_details_img .simply-section.simply-days-section, 
+    .wsus__event_details_img .simply-section.simply-hours-section, 
+    .wsus__event_details_img .simply-section.simply-minutes-section, 
+    .wsus__event_details_img .simply-section.simply-seconds-section {
         text-align: center;
         width: 25%;
     }
@@ -2105,7 +2210,6 @@
     /* event details end */
 
 
-
     /* faq start */
     .accordion-button {
         font-size: 14px;
@@ -2123,8 +2227,6 @@
         font-size: 20px;
     }
     /* faq end */
-
-
 
 
     /* contact start */
@@ -2149,7 +2251,6 @@
     /* contact end */
 
 
-
     /* gallery srart */
     .gallery_filter button {
         margin: 1px 3px;
@@ -2159,8 +2260,6 @@
         margin-bottom: -5px;
     }
     /* gallery end */
-
-
 
 
     /* portfolio details start */
@@ -2195,6 +2294,10 @@
 
     .wsus__service_det_area {
         margin-bottom: 25px;
+    }
+
+    .wsus__wishlist {
+        margin-bottom: -5px;
     }
 
 
@@ -2234,22 +2337,44 @@
 
 
 
+    /* team details start */
+    .wsus__team_det_text_center {
+        position: static;
+        transform: translateY(0);
+        padding-top: 20px;
+    }
 
+    .wsus__team_details_top {
+        padding: 0;
+    }
 
+    .wsus__team_details_img {
+        border-radius: 5px;
+        overflow: hidden;
+    }
 
+    .wsus__team_details_text h4 {
+        font-size: 25px;
+    }
 
+    .wsus__team_about h5 {
+        font-size: 20px;
+    }
 
+    .wsus__team_about ul.percent li {
+        width: 95%;
+    }
 
+    .wsus__team_details .wsus__contact_adress {
+        height: 350px;
+    }
 
+    .wsus__team_details {
+        margin-bottom: -5px;
+    }
 
-
-
-
-
-    /*  start */
-    /*  end */
-
-
-
-
+    .wsus__single_team_img {
+        height: 250px;
+    }
+    /* team details end */
 }
